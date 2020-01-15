@@ -8,7 +8,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using YeetPost2.DataModels;
+
 using Microsoft.Extensions.Logging;
+using YeetPost2.Data;
 
 namespace YeetPost2.Areas.Identity.Pages.Account
 {
@@ -18,6 +22,7 @@ namespace YeetPost2.Areas.Identity.Pages.Account
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly ILogger<ExternalLoginModel> _logger;
+        private readonly AccountServices _accountService = new AccountServices();
 
         public ExternalLoginModel(
             SignInManager<IdentityUser> signInManager,
@@ -96,10 +101,15 @@ namespace YeetPost2.Areas.Identity.Pages.Account
                     {
                         Email = info.Principal.FindFirstValue(ClaimTypes.Email)
                     };
+
+                   
                 }
                 return Page();
             }
         }
+
+      
+
 
         public async Task<IActionResult> OnPostConfirmationAsync(string returnUrl = null)
         {
@@ -111,7 +121,7 @@ namespace YeetPost2.Areas.Identity.Pages.Account
                 ErrorMessage = "Error loading external login information during confirmation.";
                 return RedirectToPage("./Login", new { ReturnUrl = returnUrl });
             }
-
+            //creating the user sign in
             if (ModelState.IsValid)
             {
                 var user = new IdentityUser { UserName = Input.Email, Email = Input.Email };
@@ -123,6 +133,12 @@ namespace YeetPost2.Areas.Identity.Pages.Account
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
                         _logger.LogInformation("User created an account using {Name} provider.", info.LoginProvider);
+                        
+                        
+                        //here we go to update the user to firestore
+                        pushUserToFireStore(Input.Email);
+
+
                         return LocalRedirect(returnUrl);
                     }
                 }
@@ -135,6 +151,25 @@ namespace YeetPost2.Areas.Identity.Pages.Account
             LoginProvider = info.LoginProvider;
             ReturnUrl = returnUrl;
             return Page();
+        }
+
+        public void pushUserToFireStore(string email)
+        {
+
+            using (var context = new AccountContext())
+            {
+
+                // Query for the everything in the email that we can upload and push to FireStore
+                var username = context.AspNetUsers
+                                .Where(b => b.UserName == email)
+                                .FirstOrDefault();
+
+                _accountService.addUserToFireStore(username);
+            }
+
+
+
+
         }
     }
 }

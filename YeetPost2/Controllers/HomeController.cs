@@ -5,13 +5,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using YeetPost2.Models;
+using YeetPost2.ViewModel;
+using YeetPost2.Data;
 
 namespace YeetPost2.Controllers
 {
     public class HomeController : Controller
     {
+
+        private readonly AccountServices _accountService = new AccountServices();
         public IActionResult Index()
         {
+
+            var model = new AccountViewModel
+            {
+                accounts = _accountService.GetUsers()
+            };
+
             return View();
         }
 
