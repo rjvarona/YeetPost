@@ -12,6 +12,8 @@ using YeetPostV1_4.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Westwind.AspNetCore.LiveReload;
+
 
 
 namespace YeetPostV1_4
@@ -46,11 +48,34 @@ namespace YeetPostV1_4
                 googleOptions.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
             });
 
+            services.AddLiveReload(config =>
+            {
+                // optional - use config instead
+                config.LiveReloadEnabled = true;
+                //config.FolderToMonitor = Path.GetFullname(Path.Combine(Env.ContentRootPath,"..")) ;
+            });
+
+
+            services.AddControllersWithViews()
+        .AddRazorRuntimeCompilation();
+            //services.AddRazorPages().AddRazorRuntimeCompilation();
+            //services.AddMvc().AddRazorRuntimeCompilation();
+
+
+            //services.AddMvc(option => option.EnableEndpointRouting = false);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            // Before any other output generating middleware handlers
+            //app.UseLiveReload();
+
+            //app.UseStaticFiles();
+            //app.UseMvcWithDefaultRoute();
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
