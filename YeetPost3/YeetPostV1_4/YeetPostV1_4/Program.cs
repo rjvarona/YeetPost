@@ -14,7 +14,6 @@ namespace YeetPostV1_4
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
-            var x = 3;
         }
 
 

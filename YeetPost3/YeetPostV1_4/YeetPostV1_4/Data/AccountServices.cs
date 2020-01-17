@@ -93,5 +93,36 @@ namespace YeetPostV1_4.Data
 
 
         }
+
+
+        /// <summary>
+        /// Getting the location of the user
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns></returns>
+        public string getLocation(string userId)
+        {
+
+            CollectionReference collection = db.Collection("Users");
+
+
+            Query query = collection.WhereEqualTo("Guid", userId);
+
+            QuerySnapshot querySnapshot = query.GetSnapshotAsync().GetAwaiter().GetResult();
+
+            List<AspNetUsers> userProfile = new List<AspNetUsers>();
+
+            foreach (DocumentSnapshot queryResult in querySnapshot)
+            {
+                userProfile.Add(new AspNetUsers
+                {
+                    location = queryResult.GetValue<string>("location"),
+
+                });
+
+           }
+
+            return userProfile[0].location;
+        }
     }
 }

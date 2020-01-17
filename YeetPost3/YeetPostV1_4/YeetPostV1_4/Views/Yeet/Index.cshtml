@@ -2,6 +2,13 @@
     ViewData["Title"] = "Home Page";
 }
 
+@model YeetPostV1_4.ViewModel.YeetViewModel;
+
+<script>
+        var model =  JSON.parse('@Html.Raw(Json.Serialize(Model))');
+</script>
+
+
 <div class="text-center">
     <h1 class="display-4">Welcome Yeetsrds</h1>
     <p>Welcome to YeetPost</p>
