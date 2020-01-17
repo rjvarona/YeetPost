@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <Folder Include="AuthKeys\" />
+    <Folder Include="Views\NewFolder\" />
   </ItemGroup>
 
 </Project>

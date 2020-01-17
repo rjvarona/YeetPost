@@ -99,7 +99,7 @@ namespace YeetPostV1_4
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Yeet}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }

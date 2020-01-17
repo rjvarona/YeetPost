@@ -3,23 +3,31 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using YeetPostV1_4.Models;
 
 namespace YeetPostV1_4.Controllers
 {
-    public class HomeController : Controller
+    public class YeetController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<YeetController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public YeetController(ILogger<YeetController> logger)
         {
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int? id)
         {
+            bool isAuthenticated = User.Identity.IsAuthenticated;
+
+            if(!isAuthenticated)
+            {
+                return RedirectToPage("/Account/Login", new { area = "Identity" });
+            }
+
             return View();
         }
 
