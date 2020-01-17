@@ -8,6 +8,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
+using YeetPostV1_4.DataModels;
+using YeetPostV1_4.Data;
+
+
 
 namespace YeetPostV1_4.Areas.Identity.Pages.Account
 {
@@ -15,6 +19,8 @@ namespace YeetPostV1_4.Areas.Identity.Pages.Account
     public class ConfirmEmailModel : PageModel
     {
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly AccountServices _accountService = new AccountServices();
+
 
         public ConfirmEmailModel(UserManager<IdentityUser> userManager)
         {
@@ -42,5 +48,8 @@ namespace YeetPostV1_4.Areas.Identity.Pages.Account
             StatusMessage = result.Succeeded ? "Thank you for confirming your email." : "Error confirming your email.";
             return Page();
         }
+
+
+      
     }
 }
