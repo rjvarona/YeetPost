@@ -61,14 +61,14 @@ namespace YeetPostV1_4.Areas.Identity.Pages.Account
                     protocol: Request.Scheme);
 
                 //pushing user to firestore
-                pushUserToFireStore(email);
+                await pushUserToFireStoreAsync(email);
             }
 
             return Page();
         }
 
 
-        public void pushUserToFireStore(string email)
+        public async Task pushUserToFireStoreAsync(string email)
         {
 
             using (var context = new AccountContext())
@@ -76,10 +76,10 @@ namespace YeetPostV1_4.Areas.Identity.Pages.Account
 
                 // Query for the everything in the email that we can upload and push to FireStore
                 var username = context.AspNetUsers
-                                .Where(b => b.UserName == email)
+                                .Where(b => b.Email == email)
                                 .FirstOrDefault();
 
-                _accountService.addUserToFireStoreAsync(username);
+                await _accountService.addUserToFireStoreAsync(username);
             }
         }
     }
