@@ -72,13 +72,14 @@ namespace YeetPostV1_4.Data
                 AccountContext.PasswordHash = "OAuthenticated"; 
             }
 
-
+            //first location is always chattanooga
             Dictionary<string, object> newUser = new Dictionary<string, object>
                 {
                   { "username", AccountContext.UserName },
                   { "email", AccountContext.Email },
                   { "password", AccountContext.PasswordHash},
-                  { "Guid", AccountContext.Id}
+                  { "Guid", AccountContext.Id},
+                  { "location", "chattanooga"   },
 
                 };
 

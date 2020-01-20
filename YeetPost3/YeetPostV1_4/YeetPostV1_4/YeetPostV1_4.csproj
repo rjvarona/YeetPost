@@ -27,7 +27,13 @@
 
   <ItemGroup>
     <Folder Include="AuthKeys\" />
+    <Folder Include="Scripts\" />
     <Folder Include="Views\NewFolder\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="wwwroot\js\YeetPage.js" />
   </ItemGroup>
 
 </Project>
