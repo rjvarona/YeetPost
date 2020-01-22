@@ -1,11 +1,13 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@using Newtonsoft.Json;
 
 @model YeetPostV1_4.ViewModel.YeetViewModel;
 
 <script>
-        var model = @Html.Raw(Json.Serialize(Model));
+    var model = @Html.Raw(JsonConvert.SerializeObject(Model));
+          
 </script>
 
 <div id="app">

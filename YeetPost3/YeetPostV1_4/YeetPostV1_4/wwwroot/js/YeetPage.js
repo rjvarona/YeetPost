@@ -8,6 +8,7 @@
 
         return {
             header: 'd',
+            model: model,
             yeet: '',
             form: Object.assign({}, defaultForm),
             rules: {
