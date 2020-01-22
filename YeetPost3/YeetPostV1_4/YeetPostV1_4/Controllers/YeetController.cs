@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using YeetPostV1_4.Models;
 using YeetPostV1_4.ViewModel;
 using YeetPostV1_4.Data;
+using Newtonsoft.Json;
 //using Microsoft.AspNet.Identity; // NuGet: Microsoft ASP.NET Identity Core.
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
@@ -20,6 +21,8 @@ namespace YeetPostV1_4.Controllers
         private readonly ILogger<YeetController> _logger;
         private readonly YeetServices _yeetServices = new YeetServices();
         private readonly AccountServices _accountServices = new AccountServices();
+        public string location;
+        private string userId;
 
         public YeetController(ILogger<YeetController> logger)
         {
@@ -37,15 +40,45 @@ namespace YeetPostV1_4.Controllers
 
             var claimsIdentity = (ClaimsIdentity)this.User.Identity;
             var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
-            var userId = claim.Value;
+
+            string name = User.Identity.Name;
+
+
+            userId = claim.Value;
 
             var model = new YeetViewModel();
-            var location = _accountServices.getLocation(userId);
+            location = _accountServices.getLocation(userId);
             model.yeets = _yeetServices.GetYeets(location);
-
+            model.location = location;
+            var x = JsonConvert.SerializeObject(model);
 
             return View(model);
         }
+
+
+
+        [HttpPost]
+        public ActionResult pushNewYeet(string header, string yeet)
+        {
+            var claimsIdentity = (ClaimsIdentity)this.User.Identity;
+            var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
+
+            string name = User.Identity.Name;
+
+            //put into a class later and pass it through much cleaner
+            userId = claim.Value;
+
+            location = _accountServices.getLocation(userId);
+
+
+            _yeetServices.newYeet(header, yeet, location, userId, name);
+
+            return RedirectToAction("Yeet");
+        }
+
+
+
+
 
         public IActionResult Privacy()
         {

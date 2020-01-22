@@ -87,11 +87,7 @@ namespace YeetPostV1_4.Data
             DocumentReference addedDocRef2 = db.Collection("Users").Document(AccountContext.Id);
                 
             await addedDocRef2.SetAsync(newUser);
-           
-
-
-            //}
-
+          
 
         }
 

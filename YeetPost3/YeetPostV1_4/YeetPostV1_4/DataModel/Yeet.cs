@@ -20,5 +20,6 @@ namespace YeetPostV1_4.DataModel
         public List<string> whoLikes;
 
         public string yeet;
+        public string location;
     }
 }

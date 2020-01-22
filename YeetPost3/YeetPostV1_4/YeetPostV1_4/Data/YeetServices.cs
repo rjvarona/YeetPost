@@ -9,6 +9,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using YeetPostV1_4.DataModels;
 using YeetPostV1_4.DataModel;
+using System.Security.Claims;
 
 
 namespace YeetPostV1_4.Data
@@ -61,12 +62,46 @@ namespace YeetPostV1_4.Data
                     totalLikes = queryResult.GetValue<string>("totalLikes"),
                     whoLikes = queryResult.GetValue<List<string>>("whoLikes"),
                     yeet = queryResult.GetValue<string>("yeet"),
+                    location = queryResult.GetValue<string>("location"),
+
                 });
 
             }
             return yeets;
         }
 
-      
+
+
+        public void newYeet(string header, string yeet, string location, string userId, string name)
+        {
+            Query query = db.Collection("Yeets");
+
+            QuerySnapshot querySnap = query.GetSnapshotAsync().GetAwaiter().GetResult();
+            string[] whoLikes = new string[] { "id1" };
+
+
+            DateTime utcDate = DateTime.UtcNow;
+            Dictionary<string, object> Yeet = new Dictionary<string, object>
+                {
+                  { "header", header},
+                  { "yeet", yeet },
+                  { "totalLikes", "1"},
+                  { "whoLikes", whoLikes},
+                  {"date", utcDate},
+                  { "location", location },
+                  {"Guid", userId },
+                  {"username", name },
+
+                };
+
+            DocumentReference addedDocRef =  db.Collection("Yeets").AddAsync(Yeet).GetAwaiter().GetResult();
+
+            
+
+        }
+
+
+
+
     }
 }

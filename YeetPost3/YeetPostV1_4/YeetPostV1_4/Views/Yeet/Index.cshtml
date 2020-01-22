@@ -5,40 +5,67 @@
 @model YeetPostV1_4.ViewModel.YeetViewModel;
 
 <script>
-        var model =  JSON.parse('@Html.Raw(Json.Serialize(Model))');
+        var model = @Html.Raw(Json.Serialize(Model));
 </script>
 
 <div id="app">
-    <v-app id="inspire">
-        <v-card class="mx-auto"
-                max-width="400">
-            <v-img class="white--text align-end"
-                   height="200px"
-                   src="https://cdn.vuetifyjs.com/images/cards/docks.jpg">
-                <v-card-title>Top 10 Australian beaches</v-card-title>
-            </v-img>
 
-            <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
+    <v-row>
+            <v-card class="mx-auto"
+                    max-width="500">
+                <v-form ref="form" v-on:submit.prevent="submit">
+                    <v-container fluid>
+                        <v-row>
 
-            <v-card-text class="text--primary">
-                <div>Whitehaven Beach</div>
 
-                <div>Whitsunday Island, Whitsunday Islands</div>
-            </v-card-text>
+                            <div>
+                                <v-col cols="12">
+                                    <h1>Create a Yeet</h1>
+                                </v-col>
+                            </div>
 
-            <v-card-actions>
-                <v-btn color="orange"
-                       text>
-                    Share
-                </v-btn>
+                            <v-col cols="12">
+                                <v-text-field v-model="header"
+                                              id ="header"
+                                              :rules="rules.name"
+                                              color="purple darken-2"
+                                              label="Yeet Topic"
+                                              required></v-text-field>
+                            </v-col>
+                            <p>header is {{header}}</p>
 
-                <v-btn color="orange"
-                       text>
-                    Explore
-                </v-btn>
-            </v-card-actions>
-        </v-card>
-    </v-app>
+                            <v-col cols="12">
+                                <v-textarea v-model="yeet"
+                                            id="yeet"
+                                            :rules="rules.name"
+                                            color="teal">
+                                    <template v-slot:label>
+                                        <div>
+                                            Yeet <small>(make it funny)</small>
+                                        </div>
+                                    </template>
+                                </v-textarea>
+                            </v-col>
+                            <v-col cols="8">
+
+                            </v-col>
+
+
+                            <v-col cols="8">
+                                <v-btn v-on:click="submit">Post</v-btn>
+                            </v-col>
+
+                        </v-row>
+                    </v-container>
+            </v-card>
+
+
+    </v-row>
+
+    <br />
+    <partial name="~/Views/Shared/_YeetPartial.cshtml" />
+
+
 </div>
 
 <script src="~/js/YeetPage.js"></script>

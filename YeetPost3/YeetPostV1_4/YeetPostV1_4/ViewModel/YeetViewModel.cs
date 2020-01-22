@@ -10,5 +10,9 @@ namespace YeetPostV1_4.ViewModel
     public class YeetViewModel
     {
         public List<Yeet> yeets { get; set; }
+
+        public string location { get; set; }
+
+        public string yeetModel { get; set; }
     }
 }
