@@ -13,6 +13,7 @@ using Newtonsoft.Json;
 //using Microsoft.AspNet.Identity; // NuGet: Microsoft ASP.NET Identity Core.
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
+using Nancy.Json;
 
 namespace YeetPostV1_4.Controllers
 {
@@ -58,7 +59,7 @@ namespace YeetPostV1_4.Controllers
 
 
         [HttpPost]
-        public ActionResult pushNewYeet(string header, string yeet)
+        public string pushNewYeet(string header, string yeet)
         {
             var claimsIdentity = (ClaimsIdentity)this.User.Identity;
             var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
@@ -73,8 +74,24 @@ namespace YeetPostV1_4.Controllers
 
             _yeetServices.newYeet(header, yeet, location, userId, name);
 
-            return RedirectToAction("Yeet");
+            var model = new YeetViewModel();
+            model.yeets = _yeetServices.GetYeets(location);
+            model.location = location;
+
+
+            return new JavaScriptSerializer().Serialize(model);
         }
+
+
+        public string getYeets(string location)
+        {
+            var model = new YeetViewModel();
+            model.yeets = _yeetServices.GetYeets(location);
+
+            return new JavaScriptSerializer().Serialize(model);
+        }
+
+
 
 
 

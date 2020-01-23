@@ -14,7 +14,7 @@
 
     <v-row>
             <v-card class="mx-auto"
-                    max-width="500">
+                    max-width="600">
                 <v-form ref="form" v-on:submit.prevent="submit">
                     <v-container fluid>
                         <v-row>
@@ -22,7 +22,7 @@
 
                             <div>
                                 <v-col cols="12">
-                                    <h1>Create a Yeet</h1>
+                                    <p><b>Create a Yeet</b></p>
                                 </v-col>
                             </div>
 
@@ -34,11 +34,12 @@
                                               label="Yeet Topic"
                                               required></v-text-field>
                             </v-col>
-                            <p>header is {{header}}</p>
+                        
 
                             <v-col cols="12">
                                 <v-textarea v-model="yeet"
                                             id="yeet"
+                                             :auto-grow="autoGrow"
                                             :rules="rules.name"
                                             color="teal">
                                     <template v-slot:label>

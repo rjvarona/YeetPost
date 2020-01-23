@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,7 +8,7 @@ namespace YeetPostV1_4.DataModel
 {
     public class Yeet
     {
-        public DateTime date;
+        public string date;
 
         public string Guid;
 

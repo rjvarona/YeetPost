@@ -44,7 +44,7 @@ namespace YeetPostV1_4.Data
             CollectionReference collection = db.Collection("Yeets");
 
 
-            Query query = collection.WhereEqualTo("location", location);
+            Query query = collection.WhereEqualTo("location", location).OrderByDescending("date");
 
             QuerySnapshot querySnapshot = query.GetSnapshotAsync().GetAwaiter().GetResult();
 
@@ -55,7 +55,7 @@ namespace YeetPostV1_4.Data
             {
                 yeets.Add(new Yeet
                 {
-                    date = queryResult.GetValue<DateTime>("date"),
+                    date = queryResult.GetValue<DateTime>("date").ToShortTimeString(),
                     username = queryResult.GetValue<string>("username"),
                     Guid = queryResult.GetValue<string>("Guid"),
                     header = queryResult.GetValue<string>("header"),

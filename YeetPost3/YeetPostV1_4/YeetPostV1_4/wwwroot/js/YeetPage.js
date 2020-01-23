@@ -7,7 +7,7 @@
         })
 
         return {
-            header: 'd',
+            header: '',
             model: model,
             yeet: '',
             form: Object.assign({}, defaultForm),
@@ -58,6 +58,7 @@
                     yeet: $("#yeet").val()
                 },
                 success: function (data) {
+                    this.model = data
                     $('#results').html(data)
                     setTimeout(function () {// wait for 5 secs(2)
                         location.reload(); // then reload the page.(3)
@@ -67,12 +68,13 @@
                     console.log('Error, please report to a developer')
                 }
             });
-            location.reload(true);
+            
+            //location.reload(true);
         },
     },
 
    
-
+    
 
     submitData: function () {
 
