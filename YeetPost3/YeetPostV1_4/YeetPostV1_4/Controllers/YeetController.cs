@@ -49,7 +49,7 @@ namespace YeetPostV1_4.Controllers
 
             var model = new YeetViewModel();
             location = _accountServices.getLocation(userId);
-            model.yeets = _yeetServices.GetYeets(location);
+            model.yeets = _yeetServices.GetYeetsByNew(location);
             model.location = location;
             var x = JsonConvert.SerializeObject(model);
 
@@ -75,7 +75,7 @@ namespace YeetPostV1_4.Controllers
             _yeetServices.newYeet(header, yeet, location, userId, name);
 
             var model = new YeetViewModel();
-            model.yeets = _yeetServices.GetYeets(location);
+            model.yeets = _yeetServices.GetYeetsByNew(location);
             model.location = location;
 
 
@@ -83,13 +83,33 @@ namespace YeetPostV1_4.Controllers
         }
 
 
-        public string getYeets(string location)
+        [HttpGet]
+        public string filterBy(string location, string byWhat)
         {
             var model = new YeetViewModel();
-            model.yeets = _yeetServices.GetYeets(location);
+            if (byWhat == "new")
+            { 
+                model.yeets = _yeetServices.GetYeetsByNew(location);
+            }
+            else if(byWhat == "trending")
+            {
+                model.yeets = _yeetServices.GetYeetsByTrend(location);
+            }
+            model.location = location;
 
             return new JavaScriptSerializer().Serialize(model);
         }
+
+
+
+        public string getYeets(string location)
+        {
+            var model = new YeetViewModel();
+            model.yeets = _yeetServices.GetYeetsByNew(location);
+
+            return new JavaScriptSerializer().Serialize(model);
+        }
+
 
 
 

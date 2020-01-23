@@ -36,7 +36,7 @@ namespace YeetPostV1_4.Data
         /// Getting Users
         /// </summary>
         /// <returns></returns>
-        public List<Yeet> GetYeets(string location)
+        public List<Yeet> GetYeetsByNew(string location)
         {
 
             if (location == null) { location = "chattanooga";}
@@ -69,6 +69,41 @@ namespace YeetPostV1_4.Data
             }
             return yeets;
         }
+
+        public List<Yeet> GetYeetsByTrend(string location)
+        {
+
+            if (location == null) { location = "chattanooga"; }
+
+            CollectionReference collection = db.Collection("Yeets");
+
+
+            Query query = collection.WhereEqualTo("location", location).OrderByDescending("totalLikes");
+            QuerySnapshot querySnapshot = query.GetSnapshotAsync().GetAwaiter().GetResult();
+
+
+            List<Yeet> yeets = new List<Yeet>();
+
+            foreach (DocumentSnapshot queryResult in querySnapshot)
+            {
+                yeets.Add(new Yeet
+                {
+                    date = queryResult.GetValue<DateTime>("date").ToShortTimeString(),
+                    username = queryResult.GetValue<string>("username"),
+                    Guid = queryResult.GetValue<string>("Guid"),
+                    header = queryResult.GetValue<string>("header"),
+                    totalLikes = queryResult.GetValue<string>("totalLikes"),
+                    whoLikes = queryResult.GetValue<List<string>>("whoLikes"),
+                    yeet = queryResult.GetValue<string>("yeet"),
+                    location = queryResult.GetValue<string>("location"),
+
+                });
+
+            }
+            return yeets;
+        }
+
+
 
 
 
