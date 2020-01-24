@@ -50,6 +50,7 @@ namespace YeetPostV1_4.Controllers
             var model = new YeetViewModel();
             location = _accountServices.getLocation(userId);
             model.yeets = _yeetServices.GetYeetsByNew(location);
+             
             model.location = location;
             var x = JsonConvert.SerializeObject(model);
 
@@ -79,7 +80,9 @@ namespace YeetPostV1_4.Controllers
             model.location = location;
 
 
-            return new JavaScriptSerializer().Serialize(model);
+           var x = JsonConvert.SerializeObject(model);
+
+            return x;
         }
 
 

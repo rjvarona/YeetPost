@@ -9,6 +9,8 @@
         return {
             header: '',
             model: model,
+            filteredModel: Object,
+            isFiltered: false,
             yeet: '',
             form: Object.assign({}, defaultForm),
             rules: {
@@ -49,7 +51,6 @@
                 return;
             }
 
-
             $.ajax({
                 type: 'POST',
                 url: '/Yeet/pushNewYeet',
@@ -59,7 +60,10 @@
                 },
                 success: function (data) {
                     this.model = data
-
+                    $('#results').html(data)
+                    setTimeout(function () {// wait for 5 secs(2)
+                        location.reload(); // then reload the page.(3)
+                    }, 5000);
                 },
                 error: function (data) {
                     console.log('Error, please report to a developer')
@@ -70,6 +74,9 @@
         },
         filterBy: function (byWhat) {
 
+            //this.isFiltered = true;
+            
+            var e = this
             this.resetForm()
             var x = $("#header").val()
 
@@ -82,20 +89,29 @@
                 type: 'GET',
                 url: '/Yeet/filterBy',
                 data: {
-                    location: this.model.location,
+                    location: e.model.location,
                     byWhat: byWhat,
                 },
                 success: function (data) {
-                    this.model = data
-                    
+                  
                 },
                 error: function (data) {
                     console.log('Error, please report to a developer')
                 }
+            }).done(data => {
+                this.model = JSON.parse(data);
+              
             });
 
         },
 
+        changeModel: function (data) {
+
+            this.model = data
+
+            var x = this.model
+            
+        },
        
        
     },
