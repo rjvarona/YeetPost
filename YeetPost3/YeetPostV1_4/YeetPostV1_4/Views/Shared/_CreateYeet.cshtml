@@ -1,0 +1,47 @@
+﻿
+@model YeetPostV1_4.ViewModel.YeetViewModel
+
+<v-col cols="8">
+    <v-card max-width="550">
+        <v-form ref="form" v-on:submit.prevent="submit">
+            <v-container fluid>
+                <v-row>
+
+
+
+                    <v-col cols="12">
+                        <v-text-field v-model="header"
+                                      id="header"
+                                      :rules="rules.name"
+                                      color="purple darken-2"
+                                      label="Yeet Topic"
+                                      required></v-text-field>
+                    </v-col>
+
+
+                    <v-col cols="12">
+                        <v-textarea v-model="yeet"
+                                    id="yeet"
+                                    :rules="rules.name"
+                                    color="teal">
+                            <template v-slot:label>
+                                <div>
+                                    Yeet <small>(make it funny)</small>
+                                </div>
+                            </template>
+                        </v-textarea>
+                    </v-col>
+                    <v-col cols="8">
+
+                    </v-col>
+
+
+                    <v-col cols="8">
+                        <v-btn v-on:click="submit">Post</v-btn>
+                    </v-col>
+
+                </v-row>
+            </v-container>
+    </v-card>
+
+</v-col>
