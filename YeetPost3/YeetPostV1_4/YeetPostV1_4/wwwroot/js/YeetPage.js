@@ -8,10 +8,17 @@
 
         return {
             header: '',
+            dialog: false,
             model: model,
+            select: '',
             filteredModel: Object,
-            isFiltered: false,
+        
+            locationChosen: '',
             yeet: '',
+            location: [
+                { text: 'chicago' },
+                { text: 'chattanooga' }
+            ],
             form: Object.assign({}, defaultForm),
             rules: {
                 age: [
@@ -50,37 +57,41 @@
             if ($("#header").val() === null || $("#yeet").val() === null) {
                 return;
             }
-
+            var e = this
             $.ajax({
                 type: 'POST',
                 url: '/Yeet/pushNewYeet',
                 data: {
                     header: $("#header").val(),
-                    yeet: $("#yeet").val()
+                    yeet: $("#yeet").val(),
+                    location: e.model.location
                 },
                 success: function (data) {
-                    this.model = data
-                    $('#results').html(data)
-                    setTimeout(function () {// wait for 5 secs(2)
-                        location.reload(); // then reload the page.(3)
-                    }, 5000);
+                    //this.model = data
+                    //$('#results').html(data)
+                    //setTimeout(function () {// wait for 5 secs(2)
+                    //    location.reload(); // then reload the page.(3)
+                    //}, 5000);
                 },
                 error: function (data) {
                     console.log('Error, please report to a developer')
                 }
+            }).done(data => {
+                this.model = JSON.parse(data);
+
             });
             
             //location.reload(true);
         },
-        filterBy: function (byWhat) {
+        filterBy: function (recency, location) {
 
             //this.isFiltered = true;
-            
+            this.model.location = location.text
             var e = this
             this.resetForm()
             var x = $("#header").val()
 
-            if (byWhat === null) {
+            if (recency === null) {
                 return;
             }
 
@@ -90,7 +101,7 @@
                 url: '/Yeet/filterBy',
                 data: {
                     location: e.model.location,
-                    byWhat: byWhat,
+                    byWhat: recency,
                 },
                 success: function (data) {
                   

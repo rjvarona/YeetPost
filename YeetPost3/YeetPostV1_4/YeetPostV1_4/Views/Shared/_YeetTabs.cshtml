@@ -1,20 +1,27 @@
 ﻿
 
-<v-col cols="4">
+<v-col cols="2">
     <v-tabs vertical>
-        <v-tab v-on:click="filterBy('new')">
+        <v-tab v-on:click="filterBy('new', model.location)">
             <v-icon left>mdi-octagram</v-icon>
             New
         </v-tab>
-        <v-tab v-on:click="filterBy('trending')">
+        <v-tab v-on:click="filterBy('trending', model.location)">
             <v-icon left>mdi-fire</v-icon>
             Trending
         </v-tab>
-        <v-tab>
-            <v-icon left>mdi-map-marker</v-icon>
-            Choose Location
-        </v-tab>
+        <v-combobox v-model="select"
+                    :items="location"
+                    v-on:change="filterBy('trending', select)"
+                    label="Select a City"
+                    ></v-combobox>
+      
 
 
     </v-tabs>
 </v-col>
+<v-col cols="2">
+
+</v-col>
+
+

@@ -30,11 +30,18 @@ namespace YeetPostV1_4.Controllers
             _logger = logger;
         }
 
+        //zillion
+        //excorcism screener -> day of pairing -> toyProblem ->  More Logic
+       
         public IActionResult Index(int? id)
         {
+          
+
+
             bool isAuthenticated = User.Identity.IsAuthenticated;
 
-            if(!isAuthenticated)
+
+            if (!isAuthenticated)
             {
                 return RedirectToPage("/Account/Login", new { area = "Identity" });
             }
@@ -60,7 +67,7 @@ namespace YeetPostV1_4.Controllers
 
 
         [HttpPost]
-        public string pushNewYeet(string header, string yeet)
+        public string pushNewYeet(string header, string yeet, string location)
         {
             var claimsIdentity = (ClaimsIdentity)this.User.Identity;
             var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
@@ -70,8 +77,7 @@ namespace YeetPostV1_4.Controllers
             //put into a class later and pass it through much cleaner
             userId = claim.Value;
 
-            location = _accountServices.getLocation(userId);
-
+           
 
             _yeetServices.newYeet(header, yeet, location, userId, name);
 
