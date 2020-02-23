@@ -23,6 +23,7 @@
     <PackageReference Include="Nancy" Version="2.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="sqlite" Version="3.13.0" />
+    <PackageReference Include="System.AppContext" Version="4.3.0" />
     <PackageReference Include="WestWind.AspnetCore.LiveReload" Version="0.1.12" />
   </ItemGroup>
 

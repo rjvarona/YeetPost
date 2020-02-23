@@ -28,38 +28,11 @@ namespace YeetPostV1_4.Data
 
         }
 
-
-        /// <summary>
-        /// Getting Users
-        /// </summary>
-        /// <returns></returns>
-        public List<Account> GetUsers()
-        {
-
-
-            CollectionReference collection = db.Collection("Users");
-
-
-            Query query = collection;
-
-            QuerySnapshot querySnapshot = query.GetSnapshotAsync().GetAwaiter().GetResult();
-
-
-            List<Account> users = new List<Account>();
-
-            foreach (DocumentSnapshot queryResult in querySnapshot)
-            {
-                users.Add(new Account
-                {
-                    username = queryResult.GetValue<string>("username"),
-                    dateCreated = queryResult.GetValue<DateTime>("dateCreated"),
-
-                });
-
-            }
-            return users;
-        }
-
+/// <summary>
+/// adding a user to the bank
+/// </summary>
+/// <param name="AccountContext"></param>
+/// <returns></returns>
         public async Task addUserToFireStoreAsync(AspNetUsers AccountContext)
         {
 

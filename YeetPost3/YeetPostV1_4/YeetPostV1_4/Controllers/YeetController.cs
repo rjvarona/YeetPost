@@ -14,6 +14,9 @@ using Newtonsoft.Json;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using Nancy.Json;
+//master
+
+
 
 namespace YeetPostV1_4.Controllers
 {
@@ -28,16 +31,12 @@ namespace YeetPostV1_4.Controllers
         public YeetController(ILogger<YeetController> logger)
         {
             _logger = logger;
+
         }
 
-        //zillion
-        //excorcism screener -> day of pairing -> toyProblem ->  More Logic
-       
-        public IActionResult Index(int? id)
+
+        public IActionResult Index()
         {
-          
-
-
             bool isAuthenticated = User.Identity.IsAuthenticated;
 
 
@@ -46,23 +45,27 @@ namespace YeetPostV1_4.Controllers
                 return RedirectToPage("/Account/Login", new { area = "Identity" });
             }
 
-            var claimsIdentity = (ClaimsIdentity)this.User.Identity;
-            var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
 
-            string name = User.Identity.Name;
-
-
-            userId = claim.Value;
+            string userId = getUserId();
 
             var model = new YeetViewModel();
             location = _accountServices.getLocation(userId);
             model.yeets = _yeetServices.GetYeetsByNew(location);
              
             model.location = location;
-            var x = JsonConvert.SerializeObject(model);
-
+            
             return View(model);
         }
+
+        public string getUserId()
+        {
+            var claimsIdentity = (ClaimsIdentity)this.User.Identity;
+            var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
+
+            return claim.Value;
+
+        }
+
 
 
 
