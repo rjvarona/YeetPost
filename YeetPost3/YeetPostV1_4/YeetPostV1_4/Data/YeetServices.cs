@@ -63,6 +63,7 @@ namespace YeetPostV1_4.Data
                     whoLikes = queryResult.GetValue<List<string>>("whoLikes"),
                     yeet = queryResult.GetValue<string>("yeet"),
                     location = queryResult.GetValue<string>("location"),
+                    yeetID = queryResult.Id,
 
                 });
 
@@ -96,6 +97,8 @@ namespace YeetPostV1_4.Data
                     whoLikes = queryResult.GetValue<List<string>>("whoLikes"),
                     yeet = queryResult.GetValue<string>("yeet"),
                     location = queryResult.GetValue<string>("location"),
+                    yeetID = queryResult.Id,
+
 
                 });
 

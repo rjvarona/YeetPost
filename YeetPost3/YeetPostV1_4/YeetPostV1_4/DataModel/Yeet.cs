@@ -10,7 +10,7 @@ namespace YeetPostV1_4.DataModel
     {
         public string date;
 
-        public string Guid;
+        public string Guid; //user
 
         public string header;
 
@@ -20,7 +20,10 @@ namespace YeetPostV1_4.DataModel
 
         public List<string> whoLikes;
 
+        public string yeetID;
+
         public string yeet;
+
         public string location;
     }
 }

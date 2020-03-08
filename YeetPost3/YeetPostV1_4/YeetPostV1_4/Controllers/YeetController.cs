@@ -53,7 +53,9 @@ namespace YeetPostV1_4.Controllers
             model.yeets = _yeetServices.GetYeetsByNew(location);
              
             model.location = location;
-            
+
+            //return RedirectToAction("ViewComments", "Comment", new { yeetID = "ZFfMisCGPO0I7sK1HaDE" });
+
             return View(model);
         }
 

@@ -12,7 +12,7 @@
             model: model,
             select: '',
             filteredModel: Object,
-        
+
             locationChosen: '',
             yeet: '',
             location: [
@@ -27,9 +27,9 @@
                 animal: [val => (val || '').length > 0 || 'This field is required'],
                 name: [val => (val || '').length > 0 || 'This field is required'],
             },
-           
+
             terms: false,
-         
+
         }
     },
 
@@ -50,7 +50,7 @@
             this.$refs.form.reset()
         },
         submit() {
-            
+
             this.resetForm()
             var x = $("#header").val()
 
@@ -80,7 +80,7 @@
                 this.model = JSON.parse(data);
 
             });
-            
+
             //location.reload(true);
         },
         filterBy: function (recency, location) {
@@ -104,14 +104,14 @@
                     byWhat: recency,
                 },
                 success: function (data) {
-                  
+
                 },
                 error: function (data) {
                     console.log('Error, please report to a developer')
                 }
             }).done(data => {
                 this.model = JSON.parse(data);
-              
+
             });
 
         },
@@ -122,21 +122,21 @@
             var url = '/Comment/ViewComments?yeetID=__yeetID__';
             window.location.href = url.replace('__yeetID__', yeetID);
 
-         /*   $.ajax({
-                url: '/Comment/ViewComment',
-                data: {
-                    yeetID: yeetID
-                },
-                success: function (data) {
-
-                },
-                error: function (data) {
-                    console.log('Error, please report to a developer')
-                }
-            }).done(data => {
-               
-
-            });*/
+            /*   $.ajax({
+                   url: '/Comment/ViewComment',
+                   data: {
+                       yeetID: yeetID
+                   },
+                   success: function (data) {
+   
+                   },
+                   error: function (data) {
+                       console.log('Error, please report to a developer')
+                   }
+               }).done(data => {
+                  
+   
+               });*/
         },
 
         changeModel: function (data) {
@@ -144,13 +144,13 @@
             this.model = data
 
             var x = this.model
-            
+
         },
-       
-       
+
+
     },
-   
-   
+
+
 
 
 })
