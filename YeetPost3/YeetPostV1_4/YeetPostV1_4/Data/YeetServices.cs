@@ -36,7 +36,7 @@ namespace YeetPostV1_4.Data
         /// Getting Users
         /// </summary>
         /// <returns></returns>
-        public List<Yeet> GetYeetsByNew(string location)
+        public List<Yeet> GetYeetsByNew(string location, string guid)
         {
 
             if (location == null) { location = "chattanooga";}
@@ -59,11 +59,12 @@ namespace YeetPostV1_4.Data
                     username = queryResult.GetValue<string>("username"),
                     Guid = queryResult.GetValue<string>("Guid"),
                     header = queryResult.GetValue<string>("header"),
-                    totalLikes = queryResult.GetValue<string>("totalLikes"),
+                    totalLikes = queryResult.GetValue<List<string>>("whoLikes").Count().ToString(),
                     whoLikes = queryResult.GetValue<List<string>>("whoLikes"),
                     yeet = queryResult.GetValue<string>("yeet"),
                     location = queryResult.GetValue<string>("location"),
                     yeetID = queryResult.Id,
+                    iLiked = (queryResult.GetValue<List<string>>("whoLikes").Any(str => str.Contains(guid))),
 
                 });
 
@@ -71,7 +72,7 @@ namespace YeetPostV1_4.Data
             return yeets;
         }
 
-        public List<Yeet> GetYeetsByTrend(string location)
+        public List<Yeet> GetYeetsByTrend(string location, string guid)
         {
 
             if (location == null) { location = "chattanooga"; }
@@ -93,12 +94,12 @@ namespace YeetPostV1_4.Data
                     username = queryResult.GetValue<string>("username"),
                     Guid = queryResult.GetValue<string>("Guid"),
                     header = queryResult.GetValue<string>("header"),
-                    totalLikes = queryResult.GetValue<string>("totalLikes"),
+                    totalLikes = queryResult.GetValue<List<string>>("whoLikes").Count().ToString(),
                     whoLikes = queryResult.GetValue<List<string>>("whoLikes"),
                     yeet = queryResult.GetValue<string>("yeet"),
                     location = queryResult.GetValue<string>("location"),
                     yeetID = queryResult.Id,
-
+                    iLiked = (queryResult.GetValue<List<string>>("whoLikes").Any(str => str.Contains(guid))),
 
                 });
 
@@ -133,8 +134,6 @@ namespace YeetPostV1_4.Data
                 };
 
             DocumentReference addedDocRef =  db.Collection("Yeets").AddAsync(Yeet).GetAwaiter().GetResult();
-
-            
 
         }
 

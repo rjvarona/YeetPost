@@ -41,7 +41,7 @@ namespace YeetPostV1_4.Data
             Query query = db.Collection("Yeets").Document(yeetID).Collection("Comments");
 
             QuerySnapshot querySnapshot = query.GetSnapshotAsync().GetAwaiter().GetResult();
-
+            comments.yeet = getYeetAsync(yeetID);
             if (querySnapshot.Documents.Count() == 0)
             {
                 return comments;
@@ -93,6 +93,39 @@ namespace YeetPostV1_4.Data
             }
 
             return yeet;
+
+        }
+
+        //add to who likes
+
+        /// <summary>
+        /// adding the new comment to the DB
+        /// </summary>
+        /// <param name="username"></param>
+        /// <param name="comment"></param>
+        /// <param name="guid"></param>
+        /// <param name="yeetId"></param>
+        public void newComment(string username, string comment, string guid, string yeetId)
+        {
+            Query query = db.Collection("Yeets").Document(yeetId).Collection("Comments"); 
+
+            QuerySnapshot querySnap = query.GetSnapshotAsync().GetAwaiter().GetResult();
+            
+            
+
+            DateTime utcDate = DateTime.UtcNow;
+            Dictionary<string, object> Yeet = new Dictionary<string, object>
+                {
+                  { "Guid", guid},
+                  { "comment", comment },
+                  { "dateadded", utcDate},
+                  { "username", username},
+                 
+
+                };
+
+            DocumentReference addedDocRef = db.Collection("Yeets").Document(yeetId)
+                .Collection("Comments").AddAsync(Yeet).GetAwaiter().GetResult();
 
         }
 

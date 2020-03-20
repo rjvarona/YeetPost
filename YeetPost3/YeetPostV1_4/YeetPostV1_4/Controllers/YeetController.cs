@@ -50,7 +50,7 @@ namespace YeetPostV1_4.Controllers
 
             var model = new YeetViewModel();
             location = _accountServices.getLocation(userId);
-            model.yeets = _yeetServices.GetYeetsByNew(location);
+            model.yeets = _yeetServices.GetYeetsByNew(location, userId);
              
             model.location = location;
 
@@ -87,11 +87,11 @@ namespace YeetPostV1_4.Controllers
             _yeetServices.newYeet(header, yeet, location, userId, name);
 
             var model = new YeetViewModel();
-            model.yeets = _yeetServices.GetYeetsByNew(location);
+            model.yeets = _yeetServices.GetYeetsByNew(location, userId);
             model.location = location;
 
 
-           var x = JsonConvert.SerializeObject(model);
+            var x = JsonConvert.SerializeObject(model);
 
             return x;
         }
@@ -100,14 +100,23 @@ namespace YeetPostV1_4.Controllers
         [HttpGet]
         public string filterBy(string location, string byWhat)
         {
+            var claimsIdentity = (ClaimsIdentity)this.User.Identity;
+            var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
+
+            string name = User.Identity.Name;
+
+            //put into a class later and pass it through much cleaner
+            userId = claim.Value;
+
+
             var model = new YeetViewModel();
             if (byWhat == "new")
             { 
-                model.yeets = _yeetServices.GetYeetsByNew(location);
+                model.yeets = _yeetServices.GetYeetsByNew(location, userId);
             }
             else if(byWhat == "trending")
             {
-                model.yeets = _yeetServices.GetYeetsByTrend(location);
+                model.yeets = _yeetServices.GetYeetsByTrend(location, userId);
             }
             model.location = location;
 
@@ -118,8 +127,16 @@ namespace YeetPostV1_4.Controllers
 
         public string getYeets(string location)
         {
+            var claimsIdentity = (ClaimsIdentity)this.User.Identity;
+            var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
+
+            string name = User.Identity.Name;
+
+            //put into a class later and pass it through much cleaner
+            userId = claim.Value;
+
             var model = new YeetViewModel();
-            model.yeets = _yeetServices.GetYeetsByNew(location);
+            model.yeets = _yeetServices.GetYeetsByNew(location, userId);
 
             return new JavaScriptSerializer().Serialize(model);
         }

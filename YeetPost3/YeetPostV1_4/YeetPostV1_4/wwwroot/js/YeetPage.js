@@ -67,11 +67,7 @@
                     location: e.model.location
                 },
                 success: function (data) {
-                    //this.model = data
-                    //$('#results').html(data)
-                    //setTimeout(function () {// wait for 5 secs(2)
-                    //    location.reload(); // then reload the page.(3)
-                    //}, 5000);
+               
                 },
                 error: function (data) {
                     console.log('Error, please report to a developer')
@@ -83,10 +79,16 @@
             
             //location.reload(true);
         },
-        filterBy: function (recency, location) {
+        filterBy: function (recency, location, byLocation) {
 
             //this.isFiltered = true;
-            this.model.location = location.text
+            if (byLocation) {
+                this.model.location = location.text
+            }
+            else {
+                this.model.location = location
+            }
+
             var e = this
             this.resetForm()
             var x = $("#header").val()
@@ -117,15 +119,20 @@
         },
 
 
-        viewYeet: function (yeetID) {
 
-            var url = '/Comment/ViewComments?yeetID=__yeetID__';
-            window.location.href = url.replace('__yeetID__', yeetID);
 
-         /*   $.ajax({
-                url: '/Comment/ViewComment',
+        likeYeet: function (yeetID, whoLikes, location, remove)
+        {
+            
+            $.ajax({
+                type: 'GET',
+                url: '/Like/LikePost',
+                traditional: true,
                 data: {
-                    yeetID: yeetID
+                    yeetID: yeetID,
+                    whoLikes: whoLikes,
+                    location: location,
+                    remove: remove,
                 },
                 success: function (data) {
 
@@ -134,9 +141,19 @@
                     console.log('Error, please report to a developer')
                 }
             }).done(data => {
-               
+                this.model = JSON.parse(data);
 
-            });*/
+            });
+
+        },
+
+
+        viewYeet: function (yeetID) {
+
+            var url = '/Comment/ViewComments?yeetID=__yeetID__';
+            window.location.href = url.replace('__yeetID__', yeetID);
+
+    
         },
 
         changeModel: function (data) {

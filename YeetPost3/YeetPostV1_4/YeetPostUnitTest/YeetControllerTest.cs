@@ -41,54 +41,54 @@ namespace YeetPostUnitTest
         }
 
 
-        [Fact]
-        public void PassWithUser()
-        {
-            // Arrange
-            var username = "fakeUserName";
+        //[Fact]
+        //public void PassWithUser()
+        //{
+        //    // Arrange
+        //    var username = "fakeUserName";
 
-            var identity = new GenericIdentity(username, "");
-            MemoryStream memStream = new MemoryStream();
+        //    var identity = new GenericIdentity(username, "");
+        //    MemoryStream memStream = new MemoryStream();
 
-            var mockPrincipal = new Mock<ClaimsPrincipal>();
+        //    var mockPrincipal = new Mock<ClaimsPrincipal>();
 
-            BinaryReader binReader = new BinaryReader(memStream);
+        //    BinaryReader binReader = new BinaryReader(memStream);
 
-            mockPrincipal.Setup(x => x.Identity).Returns(new ClaimsIdentity("tess"));
-            mockPrincipal.Setup(x => x.Identity.IsAuthenticated).Returns(true);
+        //    mockPrincipal.Setup(x => x.Identity).Returns(new ClaimsIdentity("tess"));
+        //    mockPrincipal.Setup(x => x.Identity.IsAuthenticated).Returns(true);
 
 
-            var mockHttpContext = new Mock<HttpContext>();
-            mockHttpContext.Setup(m => m.User.Identity).Returns(new ClaimsIdentity("tess"));
+        //    var mockHttpContext = new Mock<HttpContext>();
+        //    mockHttpContext.Setup(m => m.User.Identity).Returns(new ClaimsIdentity("tess"));
 
-            var mockYeets = new Mock<YeetController>();
+        //    var mockYeets = new Mock<YeetController>();
 
-            mockYeets.Setup(x => x.getUserId().Returns("12334545");
+        //    mockYeets.Setup(x => x.getUserId().Returns("12334545");
             
 
 
 
-            Mock<ILogger<YeetController>> mockRepo = new Mock<ILogger<YeetController>>();
+        //    Mock<ILogger<YeetController>> mockRepo = new Mock<ILogger<YeetController>>();
 
-            //var controller = new YeetController(mockRepo.Object);
+        //    //var controller = new YeetController(mockRepo.Object);
 
-            var controller = new YeetController(mockRepo.Object)
-            {
-                ControllerContext = new ControllerContext
-                {
-                    HttpContext = mockHttpContext.Object
+        //    var controller = new YeetController(mockRepo.Object)
+        //    {
+        //        ControllerContext = new ControllerContext
+        //        {
+        //            HttpContext = mockHttpContext.Object
 
-                }
-            };
+        //        }
+        //    };
 
-            //act
+        //    //act
 
-            var viewResult = controller.Index() as ViewResult;
+        //    var viewResult = controller.Index() as ViewResult;
 
 
-            //assert
-            Assert.NotNull(viewResult);
-        }
+        //    //assert
+        //    Assert.NotNull(viewResult);
+        //}
 
     }
 }
