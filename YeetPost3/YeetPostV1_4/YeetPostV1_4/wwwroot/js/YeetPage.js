@@ -12,7 +12,8 @@
             model: model,
             select: '',
             filteredModel: Object,
-        
+            inappropriate: 'innapropriate content',
+            abusive: 'abusive',
             locationChosen: '',
             yeet: '',
             location: [
@@ -132,6 +133,32 @@
                     yeetID: yeetID,
                     whoLikes: whoLikes,
                     location: location,
+                    remove: remove,
+                },
+                success: function (data) {
+
+                },
+                error: function (data) {
+                    console.log('Error, please report to a developer')
+                }
+            }).done(data => {
+                this.model = JSON.parse(data);
+
+            });
+
+        },
+
+        flagYeet: function (yeetID, whoFlags, remove, reason ,location) {
+
+            $.ajax({
+                type: 'GET',
+                url: '/Flag/FlagPost',
+                traditional: true,
+                data: {
+                    yeetID: yeetID,
+                    whoFlags: whoFlags,
+                    location: location,
+                    reason: reason,
                     remove: remove,
                 },
                 success: function (data) {

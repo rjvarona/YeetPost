@@ -27,5 +27,9 @@ namespace YeetPostV1_4.DataModel
         public string location;
 
         public bool? iLiked;
+
+        public bool? iFlagged;
+
+        public bool? isMine;
     }
 }

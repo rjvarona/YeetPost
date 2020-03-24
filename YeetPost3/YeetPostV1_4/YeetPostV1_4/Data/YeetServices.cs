@@ -65,7 +65,8 @@ namespace YeetPostV1_4.Data
                     location = queryResult.GetValue<string>("location"),
                     yeetID = queryResult.Id,
                     iLiked = (queryResult.GetValue<List<string>>("whoLikes").Any(str => str.Contains(guid))),
-
+                    iFlagged = (queryResult.GetValue<List<string>>("whoFlags").Any(str => str.Contains(guid))),
+                    isMine = (queryResult.GetValue<string>("Guid") == guid) ? true : false,
                 });
 
             }
@@ -100,7 +101,8 @@ namespace YeetPostV1_4.Data
                     location = queryResult.GetValue<string>("location"),
                     yeetID = queryResult.Id,
                     iLiked = (queryResult.GetValue<List<string>>("whoLikes").Any(str => str.Contains(guid))),
-
+                    iFlagged = (queryResult.GetValue<List<string>>("whoFlags").Any(str => str.Contains(guid))),
+                    isMine = (queryResult.GetValue<string>("Guid") == guid) ? true : false,
                 });
 
             }
@@ -117,6 +119,7 @@ namespace YeetPostV1_4.Data
 
             QuerySnapshot querySnap = query.GetSnapshotAsync().GetAwaiter().GetResult();
             string[] whoLikes = new string[] { "id1" };
+            string[] whoFlags = new string[] { "id1" };
 
 
             DateTime utcDate = DateTime.UtcNow;
@@ -126,10 +129,12 @@ namespace YeetPostV1_4.Data
                   { "yeet", yeet },
                   { "totalLikes", "1"},
                   { "whoLikes", whoLikes},
+                  { "whoFlags", whoFlags},
                   {"date", utcDate},
                   { "location", location },
                   {"Guid", userId },
                   {"username", name },
+
 
                 };
 

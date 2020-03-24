@@ -5,22 +5,19 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Nancy.Json;
-using Newtonsoft.Json;
 using YeetPostV1_4.Data;
 using YeetPostV1_4.ViewModel;
 
 namespace YeetPostV1_4.Controllers
 {
-    public class LikeController : Controller
+    public class FlagController : Controller
     {
-        
-        private readonly LikeServices _likeServices = new LikeServices();
+
+        private readonly FlagServices _flagServices = new FlagServices();
         private readonly YeetServices _yeetServices = new YeetServices();
 
-        public string LikePost(string yeetID, List<string> whoLikes, string location, bool remove)
+        public string FlagPost(string yeetID, List<string> whoFlags, bool remove, string reason, string location)
         {
-           
-
             var claimsIdentity = (ClaimsIdentity)this.User.Identity;
             var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
 
@@ -28,8 +25,8 @@ namespace YeetPostV1_4.Controllers
             var userId = claim.Value;
 
             //move get the yeets to shared and update if its by trend or what not.
-            _likeServices.likePost(yeetID, userId, whoLikes, remove);
-                
+            _flagServices.flagPost(yeetID, userId, whoFlags, remove, reason);
+
             var model = new YeetViewModel();
             model.yeets = _yeetServices.GetYeetsByTrend(location, userId);
             model.location = location;
