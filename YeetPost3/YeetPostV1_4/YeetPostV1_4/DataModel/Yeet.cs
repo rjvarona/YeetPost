@@ -19,6 +19,8 @@ namespace YeetPostV1_4.DataModel
         public string username;
 
         public List<string> whoLikes;
+        
+        public List<string> whoFlags;
 
         public string yeetID;
 

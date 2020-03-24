@@ -26,6 +26,20 @@ namespace YeetPostV1_4.Data
         }
 
 
+        public string getFLagID(Query query)
+        {
+            var flagID = "No Flag ID";
+
+            QuerySnapshot querySnapshot = query.GetSnapshotAsync().GetAwaiter().GetResult();
+            foreach (DocumentSnapshot queryResult in querySnapshot)
+            {
+                flagID = queryResult.Id;
+            }
+            return flagID;
+        }
+
+
+
         /// <summary>
         /// flagging a post
         /// </summary>
@@ -36,41 +50,40 @@ namespace YeetPostV1_4.Data
         /// <param name="reason"></param>
         public void flagPost(string yeetID, string userID, List<string> whoFlags, bool remove, string reason)
         {
-           
+
             whoFlags = addRemoveFlag(whoFlags, userID, remove, reason);
             Query query = db.Collection("Flags").WhereEqualTo("yeetID", yeetID);
 
+            var flagID = getFLagID(query);
 
-            if (query == null)
+
+            if (flagID == "No Flag ID")
             {
                 createNewFlagDoc(userID, yeetID, whoFlags);
             }
             else
             {
-                addFlag(query, whoFlags);
+                addFlag(query, whoFlags,flagID, yeetID);
             }
+
         }
 
-        public void addFlag(Query query, List<string> whoFlags)
+
+        public void addFlag(Query query, List<string> whoFlags,string flagID, string yeetID)
         {
-            var flagID = "x";
 
-                QuerySnapshot querySnapshot = query.GetSnapshotAsync().GetAwaiter().GetResult();
-
-                foreach (DocumentSnapshot queryResult in querySnapshot)
+            DocumentReference docRef = db.Collection("Flags").Document(flagID);
+            Dictionary<string, object> updates = new Dictionary<string, object>
                 {
-                    flagID = queryResult.Id;
-                }
-
-                DocumentReference docRef = db.Collection("Flags").Document(flagID);
-                Dictionary<string, object> updates = new Dictionary<string, object>
-                {
-                    { "whoLikes", whoFlags }
+                    { "whoFlags", whoFlags }
                 };
 
-                _ = docRef.UpdateAsync(updates)
-                         .GetAwaiter()
-                         .GetResult();
+            _ = docRef.UpdateAsync(updates)
+                     .GetAwaiter()
+                     .GetResult();
+
+            updateFlagYeet(whoFlags, yeetID);
+
         }
 
 
@@ -104,6 +117,22 @@ namespace YeetPostV1_4.Data
                 };
 
             DocumentReference addedDocRef = db.Collection("Flags").AddAsync(Flag).GetAwaiter().GetResult();
+
+            //updating the whoFlags                
+            updateFlagYeet(whoFlags, yeetID);
+        }
+
+        public void updateFlagYeet(List<string> whoFlags, string yeetID)
+        {
+            DocumentReference docRef = db.Collection("Yeets").Document(yeetID);
+
+            Dictionary<string, object> updates = new Dictionary<string, object>
+            {
+                    { "whoFlags", whoFlags }
+            };
+
+            _ = docRef.UpdateAsync(updates).GetAwaiter().GetResult();
+
         }
     }
 }

@@ -9,6 +9,7 @@
         return {
             header: '',
             dialog: false,
+            dialog2: false,
             model: model,
             select: '',
             filteredModel: Object,

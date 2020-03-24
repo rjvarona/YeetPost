@@ -120,6 +120,9 @@ namespace YeetPostV1_4.Controllers
             }
             model.location = location;
 
+            model.yeets = model.yeets.OrderByDescending(yeet  => yeet.whoLikes.Count()).ToList();
+
+
             return new JavaScriptSerializer().Serialize(model);
         }
 
