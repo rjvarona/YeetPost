@@ -170,8 +170,11 @@
                 }
             }).done(data => {
                 this.model = JSON.parse(data);
-
+                
+            this.dialog = false
+            this.dialog2 = false
             });
+
 
         },
 

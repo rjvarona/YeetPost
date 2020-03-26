@@ -68,6 +68,7 @@ namespace YeetPostV1_4.Data
                     iLiked = (queryResult.GetValue<List<string>>("whoLikes").Any(str => str.Contains(guid))),
                     iFlagged = (queryResult.GetValue<List<string>>("whoFlags").Any(str => str.Contains(guid))),
                     isMine = (queryResult.GetValue<string>("Guid") == guid) ? true : false,
+                    modal = false,
                 });
 
             }
@@ -105,6 +106,7 @@ namespace YeetPostV1_4.Data
                     iLiked = (queryResult.GetValue<List<string>>("whoLikes").Any(str => str.Contains(guid))),
                     iFlagged = (queryResult.GetValue<List<string>>("whoFlags").Any(str => str.Contains(guid))),
                     isMine = (queryResult.GetValue<string>("Guid") == guid) ? true : false,
+                    modal = false,
                 });
 
             }

@@ -28,7 +28,7 @@
                 </v-list-item-content>
 
 
-                <v-dialog v-if="yeet.iFlagged == true" v-model="dialog" persistent max-width="290">
+                <v-dialog v-if="yeet.iFlagged == true" v-model="yeet.modal" persistent max-width="290">
                     <template v-slot:activator="{ on }">
                         <v-list-item-content>
                             <v-icon class="mr-1" color="red" v-on="on">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mdi-flag</v-icon>
@@ -37,12 +37,13 @@
                     </template>
                     <v-card>
                         <div>
-                            <v-card-title class="headline" style="text-align: center;">Unflag Yeet?</v-card-title>
+                            <v-card-title class="headline" style="text-align: center;">Unflag Yeet? {{yeet.yeetID}}</v-card-title>
 
                             <v-card-actions>
                                 <v-spacer></v-spacer>
-                                <v-btn color="green darken-1" text v-on:click="dialog = false">Close</v-btn>
-                                <v-btn color="green darken-1" text v-on:click="dialog = false">Yes</v-btn>
+                                <v-btn color="green darken-1" text v-on:click="yeet.modal = false">Close</v-btn>
+                                <v-btn color="green darken-1" text 
+                                       v-on:click="flagYeet(yeet.yeetID, yeet.whoFlags,true, inappropriate, model.location )">Yes</v-btn>
                             </v-card-actions>
                         </div>
                         <div>
@@ -51,7 +52,7 @@
                     </v-card>
                 </v-dialog>
 
-                <v-dialog v-model="dialog2" persistent max-width="290" v-else>
+                <v-dialog v-model="yeet.modal" persistent max-width="290" v-else>
                     <template v-slot:activator="{ on }">
                         <v-list-item-content>
                             
@@ -59,7 +60,7 @@
                         </v-list-item-content>
                     </template>
                     <v-card >
-                        <v-card-title class="headline" style="text-align: center;">Deyeet Yeet?</v-card-title>
+                        <v-card-title class="headline" style="text-align: center;">Deyeet Yeet? {{yeet.yeetID}}</v-card-title>
                         <v-row>
                             <v-col cols="12">
                                 <v-divider></v-divider>
@@ -76,7 +77,7 @@
                         </v-row>
                         <v-card-actions>
                             <v-spacer></v-spacer>
-                            <v-btn color="green darken-1" text v-on:click="dialog2 = false">Close</v-btn>
+                            <v-btn color="green darken-1" text v-on:click="yeet.modal = false">Close</v-btn>
                         </v-card-actions>
                     </v-card>
                 </v-dialog>

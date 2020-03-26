@@ -63,13 +63,13 @@ namespace YeetPostV1_4.Data
             }
             else
             {
-                addFlag(query, whoFlags,flagID, yeetID);
+                addFlag( whoFlags,flagID, yeetID);
             }
 
         }
 
 
-        public void addFlag(Query query, List<string> whoFlags,string flagID, string yeetID)
+        public void addFlag( List<string> whoFlags,string flagID, string yeetID)
         {
 
             DocumentReference docRef = db.Collection("Flags").Document(flagID);
@@ -94,7 +94,7 @@ namespace YeetPostV1_4.Data
             if (remove)
             {
 
-                whoFlags.RemoveAll(x => x.Contains(userID + ":::" + reason));
+                whoFlags.RemoveAll(x => x.Contains(userID));
             }
             else
             {

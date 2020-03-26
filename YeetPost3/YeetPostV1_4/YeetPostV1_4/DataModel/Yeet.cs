@@ -33,5 +33,7 @@ namespace YeetPostV1_4.DataModel
         public bool? iFlagged;
 
         public bool? isMine;
+
+        public bool? modal;
     }
 }
