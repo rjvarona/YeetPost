@@ -1,0 +1,135 @@
+﻿
+@using Newtonsoft.Json;
+@model YeetPostV1_4.ViewModel.CommentViewModel;
+
+<script>
+    var model = @Html.Raw(JsonConvert.SerializeObject(Model));
+
+</script>
+
+
+
+<div id="app">
+    <v-app id="inspire">
+
+        <v-card class="mx-auto"
+                color="#26c6da"
+                dark
+                max-width="600">
+
+            <v-card-title>
+
+
+                <v-list-item-content>
+                    <v-list-item-title> &nbsp; {{model.yeet.username}}</v-list-item-title>
+                </v-list-item-content>
+
+                <v-list-item-content>
+                    <v-list-item-title> &nbsp; <strong> <b>{{model.yeet.header}}</b> </strong></v-list-item-title>
+                </v-list-item-content>
+                <v-list-item-content>
+                    <v-list-item-title> &nbsp; {{model.yeet.date}}</v-list-item-title>
+                </v-list-item-content>
+
+                <v-list-item-content>
+                    <v-list-item-title> &nbsp; {{model.yeet.location}}</v-list-item-title>
+                </v-list-item-content>
+
+                <v-list-item-content>
+                    <v-icon class="mr-1" color="red">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mdi-flag</v-icon>
+                </v-list-item-content>
+
+
+            </v-card-title>
+
+            <v-card-text class="headline font-weight-bold">
+                "   {{model.yeet.yeet}} "
+            </v-card-text>
+
+            <v-card-actions>
+                <v-list-item class="grow">
+
+                    <v-row align="center"
+                           justify="end">
+                        <v-icon class="mr-1">mdi-heart</v-icon>
+                        <span class="subheading mr-2">{{model.yeet.totalLikes}}</span>
+
+                    </v-row>
+                </v-list-item>
+            </v-card-actions>
+
+        </v-card>
+        <br />
+    </v-app>
+
+
+    @* adding yeet comments------------------------------------------ *@
+    <v-app id="inspire">
+        <v-card max-width="500"
+                class="mx-auto">
+            <v-form ref="form" v-on:submit.prevent="submit">
+                <v-card color="#26c6da">
+
+                    <v-container fluid>
+                        <v-row>
+
+
+                            <v-col cols="12">
+                                <v-textarea v-model="addComment"
+                                            label="comment "
+                                            id="comment"
+                                            color="black"
+                                            rows="3">
+                                    <template v-slot:label>
+                                        <div>
+                                            Comment <small>(say something dumb)</small>
+                                        </div>
+                                    </template>
+                                </v-textarea>
+
+                            </v-col>
+
+                            <v-col cols="9">
+                            </v-col>
+                            <v-col cols="3">
+                                <v-btn color="rgb(147, 230, 234)" v-on:click="submit">
+                                    comment
+                                </v-btn>
+                            </v-col>
+                        </v-row>
+                    </v-container>
+
+                </v-card>
+            </v-form>
+
+            <v-list two-line>
+                <v-list-item-group>
+                    <template v-for="(item, index) in model.comments">
+                        <v-list-item :key="item.title">
+                            <template v-slot:default="{active, toggle }">
+
+                                <v-list-item-content>
+
+                                    <v-list-item-title style="color:black; font-weight: bold; ">
+                                        &nbsp; {{item.username}}
+                                    </v-list-item-title>
+                                    <v-list-item-subtitle style="color:black; font-size: 15px; ">
+                                        &nbsp; " {{item.comment}} "
+                                    </v-list-item-subtitle>
+                                </v-list-item-content>
+
+
+                            </template>
+                        </v-list-item>
+
+                        <v-divider v-if="index + 1 < model.comments.length"
+                                   :key="index"></v-divider>
+                    </template>
+                </v-list-item-group>
+            </v-list>
+        </v-card>
+    </v-app>
+
+</div>
+
+<script src="~/js/CommentPage.js"></script>
