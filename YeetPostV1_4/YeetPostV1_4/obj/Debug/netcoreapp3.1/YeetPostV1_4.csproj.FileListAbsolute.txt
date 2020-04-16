@@ -1495,3 +1495,4 @@ R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4
 R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.csproj.CopyComplete
 R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.dll
 R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.pdb
+R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Profile.cshtml.g.cs

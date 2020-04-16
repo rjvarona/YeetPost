@@ -1,7 +1,22 @@
-﻿
-@{
-    ViewData["Title"] = "Profile";
-}
+﻿@model YeetPostV1_4.ViewModel.YeetViewModel;
+@using Newtonsoft.Json;
 
-<h1>Profile</h1>
+<h1></h1>
 
+
+<script>
+    var model = @Html.Raw(JsonConvert.SerializeObject(Model));
+
+</script>
+
+
+<div id="app">
+
+    <partial name="~/Views/Shared/_YeetPartial.cshtml" />
+
+
+</div>
+
+
+
+<script src="~/js/Profile.js"></script>

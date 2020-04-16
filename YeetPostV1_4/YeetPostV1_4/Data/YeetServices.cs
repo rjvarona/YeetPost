@@ -75,6 +75,51 @@ namespace YeetPostV1_4.Data
             return yeets;
         }
 
+
+        /// <summary>
+        /// Getting Users
+        /// </summary>
+        /// <returns></returns>
+        public List<Yeet> GetYeetsById( string guid)
+        {
+
+
+            CollectionReference collection = db.Collection("Yeets");
+
+
+            Query query = collection.WhereEqualTo("Guid", guid).OrderByDescending("date");
+
+            QuerySnapshot querySnapshot = query.GetSnapshotAsync().GetAwaiter().GetResult();
+
+
+            List<Yeet> yeets = new List<Yeet>();
+
+            foreach (DocumentSnapshot queryResult in querySnapshot)
+            {
+                yeets.Add(new Yeet
+                {
+                    date = queryResult.GetValue<DateTime>("date").ToShortTimeString(),
+                    username = queryResult.GetValue<string>("username"),
+                    Guid = queryResult.GetValue<string>("Guid"),
+                    header = queryResult.GetValue<string>("header"),
+                    totalLikes = queryResult.GetValue<List<string>>("whoLikes").Count().ToString(),
+                    whoLikes = queryResult.GetValue<List<string>>("whoLikes"),
+                    whoFlags = queryResult.GetValue<List<string>>("whoFlags"),
+                    yeet = queryResult.GetValue<string>("yeet"),
+                    location = queryResult.GetValue<string>("location"),
+                    yeetID = queryResult.Id,
+                    iLiked = (queryResult.GetValue<List<string>>("whoLikes").Any(str => str.Contains(guid))),
+                    iFlagged = (queryResult.GetValue<List<string>>("whoFlags").Any(str => str.Contains(guid))),
+                    isMine = (queryResult.GetValue<string>("Guid") == guid) ? true : false,
+                    modal = false,
+                });
+
+            }
+            return yeets;
+        }
+
+
+
         public List<Yeet> GetYeetsByTrend(string location, string guid)
         {
 
