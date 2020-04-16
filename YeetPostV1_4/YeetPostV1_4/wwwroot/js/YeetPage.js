@@ -178,6 +178,12 @@
 
         },
 
+        deleteYeet: function (yeetID) {
+
+            return;
+
+
+        },
 
         viewYeet: function (yeetID) {
 

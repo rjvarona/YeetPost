@@ -80,6 +80,13 @@
 
         },
 
+        deleteYeet: function (yeetID) {
+
+            return;
+
+
+        },
+
         changeModel: function (data) {
 
             this.model = data

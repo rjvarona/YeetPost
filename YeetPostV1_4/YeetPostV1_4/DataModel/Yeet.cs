@@ -33,7 +33,9 @@ namespace YeetPostV1_4.DataModel
         public bool? iFlagged;
 
         public bool? isMine;
-
+        //modal for flag
         public bool? modal;
+        //modal for deletion
+        public bool? deleteModal;
     }
 }
