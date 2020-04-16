@@ -1,0 +1,111 @@
+﻿
+@model YeetPostV1_4.ViewModel.YeetViewModel;
+<v-app id="inspire"
+            v-for="(yeet, index) in model.yeets">
+
+    <v-card class="mx-auto"
+            color="#26c6da"
+            dark
+            max-width="600"
+             >
+        <div >
+            <v-card-title>
+
+
+                <v-list-item-content>
+                    <v-list-item-title> &nbsp; {{yeet.username}}</v-list-item-title>
+                </v-list-item-content>
+
+                <v-list-item-content>
+                    <v-list-item-title> &nbsp; <strong> <b>{{yeet.header}}</b> </strong></v-list-item-title>
+                </v-list-item-content>
+                <v-list-item-content>
+                    <v-list-item-title> &nbsp; {{yeet.date}}</v-list-item-title>
+                </v-list-item-content>
+
+                <v-list-item-content>
+                    <v-list-item-title> &nbsp; {{yeet.location}}</v-list-item-title>
+                </v-list-item-content>
+
+
+                <v-dialog v-if="yeet.iFlagged == true" v-model="yeet.modal" persistent max-width="290">
+                    <template v-slot:activator="{ on }">
+                        <v-list-item-content>
+                            <v-icon class="mr-1" color="red" v-on="on">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mdi-flag</v-icon>
+
+                        </v-list-item-content>
+                    </template>
+                    <v-card>
+                        <div>
+                            <v-card-title class="headline" style="text-align: center;">Unflag Yeet? {{yeet.yeetID}}</v-card-title>
+
+                            <v-card-actions>
+                                <v-spacer></v-spacer>
+                                <v-btn color="green darken-1" text v-on:click="yeet.modal = false">Close</v-btn>
+                                <v-btn color="green darken-1" text 
+                                       v-on:click="flagYeet(yeet.yeetID, yeet.whoFlags,true, inappropriate, model.location )">Yes</v-btn>
+                            </v-card-actions>
+                        </div>
+                        <div>
+
+                        </div>
+                    </v-card>
+                </v-dialog>
+
+                <v-dialog v-model="yeet.modal" persistent max-width="290" v-else>
+                    <template v-slot:activator="{ on }">
+                        <v-list-item-content>
+                            
+                            <v-icon class="mr-1" color="white" v-on="on">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mdi-flag</v-icon>
+                        </v-list-item-content>
+                    </template>
+                    <v-card >
+                        <v-row>
+                            <v-col cols="12">
+                                <v-divider></v-divider>
+                                <v-card-text style="font-size: 32px; text-align: center;"
+                                             v-on:click="flagYeet(yeet.yeetID, yeet.whoFlags,false, inappropriate ,model.location )">Innapropriate Context</v-card-text>
+                                <v-divider></v-divider>
+                            </v-col>
+                            <v-col cols="12">
+                                <v-card-text style="font-size: 32px;text-align: center;"
+                                             v-on:click="flagYeet(yeet.yeetID, yeet.whoFlags,false, abusive ,model.location )">Abusive</v-card-text>
+                                <v-divider></v-divider>
+                            </v-col>
+
+                        </v-row>
+                        <v-card-actions>
+                            <v-spacer></v-spacer>
+                            <v-btn color="green darken-1" text v-on:click="yeet.modal = false">Close</v-btn>
+                        </v-card-actions>
+                    </v-card>
+                </v-dialog>
+
+
+
+            </v-card-title>
+
+            <v-card-text class="headline font-weight-bold" v-on:click="viewYeet(yeet.yeetID)" >
+                "   {{yeet.yeet}} "
+            </v-card-text>
+        </div>
+        <v-card-actions>
+            <v-list-item class="grow">
+
+                <v-row align="center"
+                       justify="end">
+                    <v-icon class="mr-1" color="red" v-if="yeet.iLiked == true"   v-on:click="likeYeet(yeet.yeetID, yeet.whoLikes, model.location, true)">mdi-heart</v-icon>
+
+                    <v-icon class="mr-1"  v-else  v-on:click="likeYeet(yeet.yeetID, yeet.whoLikes, model.location, false)">mdi-heart</v-icon>
+
+
+                    <span class="subheading mr-2">{{yeet.totalLikes}}</span>
+
+                </v-row>
+            </v-list-item>
+        </v-card-actions>
+
+    </v-card>
+        <br />
+    </v-app>
+

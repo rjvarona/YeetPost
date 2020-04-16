@@ -1,0 +1,998 @@
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\appsettings.Development.json
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\appsettings.json
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\AuthKeys\client_secret_991784057476-3dtbgque5th3b56hj0o09hm49r4sk2ao.apps.googleusercontent.com (1).json
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\AuthKeys\yeetpost-firestore.json
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.StaticWebAssets.xml
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.exe
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.deps.json
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.runtimeconfig.json
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.runtimeconfig.dev.json
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.pdb
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Collections.Immutable.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Text.Json.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.Views.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.Views.pdb
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Api.CommonProtos.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Api.Gax.Grpc.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Apis.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Cloud.Firestore.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Cloud.Firestore.V1.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.LongRunning.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Grpc.Auth.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Grpc.Core.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Nancy.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Westwind.AspnetCore.LiveReload.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x64.so
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x86.so
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x64.dylib
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x86.dylib
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x64.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x86.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libsqlite3.so
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libsqlite3.dylib
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\sqlite3.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\sqlite3.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.csprojAssemblyReference.cache
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\staticwebassets\YeetPostV1_4.StaticWebAssets.Manifest.cache
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\staticwebassets\YeetPostV1_4.StaticWebAssets.xml
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.MvcApplicationPartsAssemblyInfo.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.MvcApplicationPartsAssemblyInfo.cache
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.RazorAssemblyInfo.cache
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.RazorAssemblyInfo.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.AssemblyInfoInputs.cache
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.AssemblyInfo.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.TagHelpers.input.cache
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.TagHelpers.output.cache
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.RazorCoreGenerate.cache
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Comment\ViewComments.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Comment\_YeetComment.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CreateYeet.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_YeetPartial.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_YeetTabs.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Yeet\Index.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.RazorTargetAssemblyInfo.cache
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.RazorTargetAssemblyInfo.cs
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.Views.pdb
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.csproj.CopyComplete
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.dll
+R:\YeetPost-master\YeetPost3\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.pdb
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\AuthKeys\client_secret_991784057476-3dtbgque5th3b56hj0o09hm49r4sk2ao.apps.googleusercontent.com (1).json
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\AuthKeys\yeetpost-firestore.json
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.StaticWebAssets.xml
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.exe
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.deps.json
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.runtimeconfig.json
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.runtimeconfig.dev.json
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.pdb
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Server.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HostFiltering.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Connections.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpOverrides.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Identity.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Localization.Routing.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Metadata.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCaching.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.ResponseCompression.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Rewrite.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Routing.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IIS.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Session.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Core.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.StaticFiles.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebSockets.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Xml.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Console.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.TraceSource.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.ObjectPool.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.WebEncoders.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.JSInterop.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\netstandard.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Collections.Immutable.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.DataAnnotations.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.EventBasedAsync.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Primitives.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.TypeConverter.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Configuration.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Console.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Core.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Data.Common.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Data.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tools.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.TraceSource.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Tracing.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Drawing.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Drawing.Primitives.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Dynamic.Runtime.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Globalization.Calendars.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Globalization.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Globalization.Extensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.Brotli.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.FileSystem.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.Compression.ZipFile.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.DriveInfo.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Linq.Expressions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Linq.Parallel.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Linq.Queryable.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Memory.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Http.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.HttpListener.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Mail.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.NameResolution.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.NetworkInformation.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Ping.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Primitives.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Requests.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Security.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.ServicePoint.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.Sockets.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.WebClient.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.WebHeaderCollection.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.WebProxy.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.Client.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Net.WebSockets.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Numerics.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Numerics.Vectors.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ObjectModel.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.DispatchProxy.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.ILGeneration.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.Emit.Lightweight.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.Extensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.Metadata.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.Primitives.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Reflection.TypeExtensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Resources.Reader.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Resources.ResourceManager.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Resources.Writer.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Extensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Handles.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Intrinsics.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Loader.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Numerics.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Formatters.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Text.Json.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Overlapped.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Dataflow.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Extensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Tasks.Parallel.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Thread.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.ThreadPool.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Threading.Timer.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Transactions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Transactions.Local.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Web.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.Serialization.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.XDocument.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlDocument.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.XmlSerializer.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\System.Xml.XPath.XDocument.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\refs\WindowsBase.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.Views.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\YeetPostV1_4.Views.pdb
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Api.CommonProtos.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Api.Gax.Grpc.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Apis.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Cloud.Firestore.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Cloud.Firestore.V1.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.LongRunning.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Grpc.Auth.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Grpc.Core.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Nancy.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\Westwind.AspnetCore.LiveReload.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x64.so
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x86.so
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x64.dylib
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x86.dylib
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x64.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x86.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libsqlite3.so
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libsqlite3.dylib
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\sqlite3.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\sqlite3.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.csprojAssemblyReference.cache
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\staticwebassets\YeetPostV1_4.StaticWebAssets.Manifest.cache
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\staticwebassets\YeetPostV1_4.StaticWebAssets.xml
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.RazorAssemblyInfo.cache
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.RazorAssemblyInfo.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.AssemblyInfoInputs.cache
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.AssemblyInfo.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.TagHelpers.input.cache
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.TagHelpers.output.cache
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.RazorCoreGenerate.cache
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmailChange.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPassword.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ForgotPasswordConfirmation.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ResetPasswordConfirmation.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Comment\ViewComments.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Comment\_YeetComment.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CreateYeet.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_YeetPartial.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_YeetTabs.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Yeet\Index.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.RazorTargetAssemblyInfo.cache
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.RazorTargetAssemblyInfo.cs
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.Views.pdb
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.csproj.CopyComplete
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.dll
+C:\Users\rjvar\Desktop\w2020\S.P\sprint 2\Sprint 2 Code\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.pdb
