@@ -143,6 +143,25 @@ namespace YeetPostV1_4.Controllers
         }
 
 
+        public string deleteYeet(string yeetId, string location)
+        {
+            var claimsIdentity = (ClaimsIdentity)this.User.Identity;
+            var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
+
+            string name = User.Identity.Name;
+
+            //put into a class later and pass it through much cleaner
+            userId = claim.Value;
+            _yeetServices.deleteYeet(yeetId);
+
+
+            var model = new YeetViewModel();
+            model.yeets = _yeetServices.GetYeetsByNew(location, userId);
+
+            return new JavaScriptSerializer().Serialize(model);
+        }
+
+
 
 
 

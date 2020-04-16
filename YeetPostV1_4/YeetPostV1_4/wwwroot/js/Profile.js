@@ -80,8 +80,28 @@
 
         },
 
-        deleteYeet: function (yeetID) {
+        deleteYeet: function (yeetID, location) {
 
+            $.ajax({
+                type: 'GET',
+                url: '/Yeet/deleteYeet',
+                traditional: true,
+                data: {
+                    yeetID: yeetID,
+                    location: location,
+
+                },
+                success: function (data) {
+
+                },
+                error: function (data) {
+                    console.log('Error, please report to a developer')
+                }
+            }).done(data => {
+                this.model = JSON.parse(data);
+                this.dialog = false;
+                this.dialog2 = false;
+            });
             return;
 
 

@@ -162,6 +162,12 @@ namespace YeetPostV1_4.Data
         }
 
 
+        public async void deleteYeet(string yeetId)
+        {
+            DocumentReference delRef = db.Collection("Yeets").Document(yeetId);
+             _ =  delRef.DeleteAsync().GetAwaiter().GetResult();
+        }
+
 
 
 
