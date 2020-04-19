@@ -6,6 +6,8 @@ using Grpc.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using MimeKit;
+using MailKit.Net.Smtp;
 using System.Threading.Tasks;
 
 namespace YeetPostV1_4.Data
@@ -82,7 +84,45 @@ namespace YeetPostV1_4.Data
                      .GetAwaiter()
                      .GetResult();
 
+
             updateFlagYeet(whoFlags, yeetID);
+
+            if (whoFlags.Count >= 5)
+            {
+                sendEmail(yeetID);
+            }
+        }
+
+
+        /// <summary>
+        /// send an email if it is flagged.
+        /// </summary>
+        /// <param name="yeetID"></param>
+        public void sendEmail(string yeetID)
+        {
+            var messageToSend = new MimeMessage
+            {
+                Sender = new MailboxAddress("rj-noreply pls dont", "burgerflipperdestroyer@gmail.com"),
+                Subject = "Your Subject",
+             };
+            messageToSend.To.Add(new MailboxAddress("rudson varona", "rudsonvarona@gmail.com"));
+            
+            
+            messageToSend.Body = new TextPart("plain")
+            {
+                Text = yeetID + " has gotten more than 5 yeets please check"
+            };
+
+            using (var client = new SmtpClient())
+            {
+                client.Connect("smtp.gmail.com", 587, false);
+                client.Authenticate("burgerflipperdestroyer@gmail.com", "Burgerbuns99*");
+                client.Send(messageToSend);
+                client.Disconnect(true);
+
+            }
+
+
 
         }
 
@@ -100,6 +140,9 @@ namespace YeetPostV1_4.Data
             {
                 whoFlags.Add(userID + ":::" + reason);
             }
+
+            
+
 
             return whoFlags;
         }

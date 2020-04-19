@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[1.1.0, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.Google": {
               "target": "Package",
               "version": "[3.0.0-preview8.19405.7, )"

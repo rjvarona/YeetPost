@@ -1446,8 +1446,6 @@ R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\runtimes\win
 R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.csprojAssemblyReference.cache
 R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\staticwebassets\YeetPostV1_4.StaticWebAssets.Manifest.cache
 R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\staticwebassets\YeetPostV1_4.StaticWebAssets.xml
-R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.MvcApplicationPartsAssemblyInfo.cs
-R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.MvcApplicationPartsAssemblyInfo.cache
 R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.RazorAssemblyInfo.cache
 R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.RazorAssemblyInfo.cs
 R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.AssemblyInfoInputs.cache
@@ -1497,3 +1495,8 @@ R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4
 R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.pdb
 R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Profile\Profile.cshtml.g.cs
 R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\Razor\Views\Status\Banned.cshtml.g.cs
+R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\MailKit.dll
+R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\MimeKit.dll
+R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.MvcApplicationPartsAssemblyInfo.cs
+R:\GitHubYeetPost\YeetPostV1_4\YeetPostV1_4\obj\Debug\netcoreapp3.1\YeetPostV1_4.MvcApplicationPartsAssemblyInfo.cache
