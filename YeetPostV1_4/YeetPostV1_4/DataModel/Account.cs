@@ -32,6 +32,7 @@ namespace YeetPostV1_4.DataModels
         public string PasswordHash { get; set; }
 
         public string location { get; set; }
+        public string status { get; set; }
     }
 
 

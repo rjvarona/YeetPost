@@ -47,6 +47,11 @@ namespace YeetPostV1_4.Controllers
 
 
             string userId = getUserId();
+            var status = _accountServices.getStatus(userId);
+            if(status == "banned")
+            {
+                return RedirectToAction("Banned", "Status");
+            }
 
             var model = new YeetViewModel();
             location = _accountServices.getLocation(userId);

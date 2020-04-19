@@ -16,6 +16,7 @@ namespace YeetPostV1_4.Controllers
 
 
         private readonly YeetServices _yeetServices = new YeetServices();
+        private readonly AccountServices _accountServices = new AccountServices();
         
         public IActionResult Profile()
         {
@@ -31,6 +32,15 @@ namespace YeetPostV1_4.Controllers
             string userId = getUserId();
 
             var model = new YeetViewModel();
+
+            var status = _accountServices.getStatus(userId);
+            if (status == "banned")
+            {
+                return RedirectToAction("Banned", "Status");
+            }
+
+
+
             model.yeets = _yeetServices.GetYeetsById(userId);
 
             return View(model);

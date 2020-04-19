@@ -36,6 +36,7 @@
 
 
   <ItemGroup>
+    <None Include="wwwroot\css\N96.css" />
     <None Include="wwwroot\js\YeetPage.js" />
   </ItemGroup>
 

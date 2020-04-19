@@ -53,6 +53,7 @@ namespace YeetPostV1_4.Data
                   { "password", AccountContext.PasswordHash},
                   { "Guid", AccountContext.Id},
                   { "location", "chattanooga"   },
+                  { "status", "approved"   },
 
                 };
 
@@ -94,5 +95,33 @@ namespace YeetPostV1_4.Data
 
             return userProfile[0].location;
         }
+
+        public string getStatus(string userId)
+        {
+            CollectionReference collection = db.Collection("Users");
+
+
+            Query query = collection.WhereEqualTo("Guid", userId);
+
+            QuerySnapshot querySnapshot = query.GetSnapshotAsync().GetAwaiter().GetResult();
+
+            List<AspNetUsers> userProfile = new List<AspNetUsers>();
+
+            foreach (DocumentSnapshot queryResult in querySnapshot)
+            {
+                userProfile.Add(new AspNetUsers
+                {
+                    status = queryResult.GetValue<string>("status"),
+
+                });
+
+            }
+
+            return userProfile[0].status;
+
+        }
+
+
+
     }
 }
