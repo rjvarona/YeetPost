@@ -133,14 +133,14 @@
             var status = this.model.status;
             index = this.model.yeets.findIndex(x => x.yeetID === yeetID);
 
-            if (remove) {
-                this.model.yeets[index].iLiked = false;
-                this.model.yeets[index].totalLikes = parseInt(this.model.yeets[index].totalLikes) - 1;
-            }
-            else {
-                this.model.yeets[index].iLiked = true;
-                this.model.yeets[index].totalLikes = parseInt(this.model.yeets[index].totalLikes) + 1;
-            }
+            //if (remove) {
+            //    this.model.yeets[index].iLiked = false;
+            //    this.model.yeets[index].totalLikes = parseInt(this.model.yeets[index].totalLikes) - 1;
+            //}
+            //else {
+            //    this.model.yeets[index].iLiked = true;
+            //    this.model.yeets[index].totalLikes = parseInt(this.model.yeets[index].totalLikes) + 1;
+            //}
             $.ajax({
                 type: 'GET',
                 url: '/Like/LikePost',
@@ -160,7 +160,10 @@
                 }
             }).done(data => {
 
-                //this.model = JSON.parse(data);
+                var x = JSON.parse(data);
+                this.model.yeets[index].iLiked = x.iLiked;
+                this.model.yeets[index].totalLikes = x.totalLikes;
+                this.model.yeets[index].whoLikes = x.whoLikes;
 
             });
 

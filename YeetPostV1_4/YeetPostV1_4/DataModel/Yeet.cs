@@ -12,7 +12,7 @@ namespace YeetPostV1_4.DataModel
         public Yeet()
         {
             header = "bruh";
-            yeet = "Welcome to YeetPost";
+            yeet = "Deleted :(";
             totalLikes = "42";
             username = "TheYeeter";
             date = "10:42pm";

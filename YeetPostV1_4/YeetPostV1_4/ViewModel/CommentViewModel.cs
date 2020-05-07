@@ -10,5 +10,7 @@ namespace YeetPostV1_4.ViewModel
     {
         public List<Comments> comments { get; set; }
         public Yeet yeet { get; set; }
+
+        public bool? showComments { get; set; }
     }
 }

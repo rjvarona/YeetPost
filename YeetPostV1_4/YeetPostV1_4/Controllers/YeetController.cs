@@ -163,7 +163,7 @@ namespace YeetPostV1_4.Controllers
         }
 
 
-        public string deleteYeet(string yeetId, string location, string status)
+        public string deleteYeet(string yeetId, string location, string status, string from)
         {
             var claimsIdentity = (ClaimsIdentity)this.User.Identity;
             var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
@@ -179,6 +179,12 @@ namespace YeetPostV1_4.Controllers
             
             model.yeets = (status == "new") ? _yeetServices.GetYeetsByNew(location, userId) : _yeetServices.GetYeetsByTrend(location, userId);
             model.status = status;
+            //from profile return to profile
+            model.yeets = (from == "profile") ? _yeetServices.GetYeetsById(userId) : model.yeets;
+
+            
+
+
             return new JavaScriptSerializer().Serialize(model);
         }
 

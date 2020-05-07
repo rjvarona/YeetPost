@@ -49,6 +49,18 @@
         }, 
         likeYeet: function (yeetID, whoLikes, location, remove) {
 
+
+            index = this.model.yeets.findIndex(x => x.yeetID === yeetID);
+
+            if (remove) {
+                this.model.yeets[index].iLiked = false;
+                this.model.yeets[index].totalLikes = parseInt(this.model.yeets[index].totalLikes) - 1;
+            }
+            else {
+                this.model.yeets[index].iLiked = true;
+                this.model.yeets[index].totalLikes = parseInt(this.model.yeets[index].totalLikes) + 1;
+            }
+
             $.ajax({
                 type: 'GET',
                 url: '/Like/LikePost',
@@ -58,6 +70,7 @@
                     whoLikes: whoLikes,
                     location: location,
                     remove: remove,
+                    from: "profile"
                 },
                 success: function (data) {
 
@@ -66,7 +79,7 @@
                     console.log('Error, please report to a developer')
                 }
             }).done(data => {
-                this.model = JSON.parse(data);
+                //this.model = JSON.parse(data);
 
             });
 
@@ -89,6 +102,7 @@
                 data: {
                     yeetID: yeetID,
                     location: location,
+                    from: "profile",
 
                 },
                 success: function (data) {

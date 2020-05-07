@@ -75,7 +75,7 @@
                                 <v-spacer></v-spacer>
                                 <v-btn color="green darken-1" text v-on:click="yeet.modal = false">Close</v-btn>
                                 <v-btn color="green darken-1" text
-                                       v-on:click="flagYeet(model.yeet.yeetID, model.yeet.whoFlags,true, inappropriate, model.yeet.location )">Yes</v-btn>
+                                       v-on:click="flagYeet(model.yeet.yeetID, model.yeet.whoFlags,true, yeet, model.yeet.location )">Yes</v-btn>
                             </v-card-actions>
                         </div>
                         <div>
@@ -110,7 +110,7 @@
                         </v-row>
                         <v-card-actions>
                             <v-spacer></v-spacer>
-                            <v-btn color="green darken-1" text v-on:click="model.yeet.modal = false">Close</v-btn>
+                            <v-btn color="green darken-1" text v-on:click="yeet.modal = false">Close</v-btn>
                         </v-card-actions>
                     </v-card>
                 </v-dialog>
@@ -128,9 +128,9 @@
 
                     <v-row align="center"
                            justify="end">
-                        <v-icon class="mr-1" color="red" v-if="model.yeet.iLiked == true" v-on:click="likeYeet(model.yeet.yeetID, model.yeet.whoLikes, model.location, true)">mdi-heart</v-icon>
+                        <v-icon class="mr-1" color="red" v-if="model.yeet.iLiked == true" v-on:click="likeYeet(model.yeet.yeetID, model.yeet.whoLikes, model.yeet.location, true)">mdi-heart</v-icon>
 
-                        <v-icon class="mr-1" v-else v-on:click="likeYeet(yeet.yeetID, yeet.whoLikes, model.location, false)">mdi-heart</v-icon>
+                        <v-icon class="mr-1" v-if="model.yeet.iLiked == false && model.showComments == true" v-on:click="likeYeet(model.yeet.yeetID, model.yeet.whoLikes, model.location, false)">mdi-heart</v-icon>
 
 
                         <span class="subheading mr-2">{{model.yeet.totalLikes}}</span>
@@ -150,7 +150,7 @@
     @* adding yeet comments------------------------------------------ *@
     <v-app id="inspire">
         <v-card max-width="500"
-                class="mx-auto">
+                class="mx-auto" v-if="model.showComments == true">
             <v-form ref="form" v-on:submit.prevent="submit">
                 <v-card color="white">
 

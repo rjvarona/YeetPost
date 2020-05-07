@@ -11,6 +11,8 @@
             dialog: false,
             model: model,
             addComment: '',
+            abusive: 'abusive',
+            inappropriate: 'innapropriate',
             select: '',
             yeet: '',
            
@@ -55,6 +57,103 @@
             });
 
             //location.reload(true);
+        },
+
+        likeYeet: function (yeetID, whoLikes, location, remove) {
+       
+            
+            if (remove) {
+                this.model.yeet.iLiked = false;
+                this.model.yeet.totalLikes = parseInt(this.model.yeet.totalLikes) - 1;
+            }
+            else {
+                this.model.yeet.iLiked = true;
+                this.model.yeet.totalLikes = parseInt(this.model.yeet.totalLikes) + 1;
+            }
+            $.ajax({
+                type: 'GET',
+                url: '/Like/LikePost',
+                traditional: true,
+                data: {
+                    yeetID: yeetID,
+                    whoLikes: whoLikes,
+                    location: location,
+                    status: status,
+                    remove: remove,
+                },
+                success: function (data) {
+
+                },
+                error: function (data) {
+                    console.log('Error, please report to a developer')
+                }
+            }).done(data => {
+
+                //this.model = JSON.parse(data);
+
+            });
+
+        },
+        //future put this in an object.
+        flagYeet: function (yeetID, whoFlags, remove, reason, location) {
+            if (reason !== "") {
+                this.model.yeet.iFlagged = true;
+            }
+            else {
+                this.model.yeet.iFlagged = false;
+            }
+            
+            $.ajax({
+                type: 'GET',
+                url: '/Flag/FlagPost',
+                traditional: true,
+                data: {
+                    yeetID: yeetID,
+                    whoFlags: whoFlags,
+                    location: location,
+                    reason: reason,
+                    remove: remove,
+                    status: status,
+                },
+                success: function (data) {
+
+                },
+                error: function (data) {
+                    console.log('Error, please report to a developer')
+                }
+            }).done(data => {
+                //this.model = JSON.parse(data);
+                this.model.yeet.modal = false;
+
+             
+            });
+
+
+        },
+
+        deleteYeet: function (yeetID) {
+
+            $.ajax({
+                type: 'POST',
+                url: '/Comment/deleteYeet',
+                traditional: true,
+                data: {
+                    yeetID: yeetID,
+                  
+
+                },
+                success: function (data) {
+
+                },
+                error: function (data) {
+                    console.log('Error, please report to a developer')
+                }
+            }).done(data => {
+                this.model = JSON.parse(data);
+            });
+            return;
+
+
         },
 
 

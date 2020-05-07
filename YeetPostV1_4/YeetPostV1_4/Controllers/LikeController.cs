@@ -16,8 +16,9 @@ namespace YeetPostV1_4.Controllers
         
         private readonly LikeServices _likeServices = new LikeServices();
         private readonly YeetServices _yeetServices = new YeetServices();
+        private readonly CommentServices _commentServices = new CommentServices();
 
-        public string LikePost(string yeetID, List<string> whoLikes, string location, bool remove, string status)
+        public string LikePost(string yeetID, List<string> whoLikes, string location, bool remove, string status, string from)
         {
            
 
@@ -32,13 +33,19 @@ namespace YeetPostV1_4.Controllers
                 
             var model = new YeetViewModel();
 
-           //filter by new 
-            model.yeets = (status == "new") ? _yeetServices.GetYeetsByNew(location, userId) : _yeetServices.GetYeetsByTrend(location, userId);
+           ////filter by new 
+           // model.yeets = (status == "new") ? _yeetServices.GetYeetsByNew(location, userId) : _yeetServices.GetYeetsByTrend(location, userId);
 
-            model.status = status;
-            model.location = location;
+           // model.status = status;
+           // model.location = location;
+           // //from profile
+           // model.yeets = (from == "profile") ? _yeetServices.GetYeetsById(userId) : model.yeets;
 
-            return new JavaScriptSerializer().Serialize(model);
+            //get the yeet
+            var yeet = _commentServices.getYeetAsync(yeetID, userId);
+
+
+            return new JavaScriptSerializer().Serialize(yeet);
         }
     }
 }

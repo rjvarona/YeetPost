@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rjvar\\Desktop\\w2020\\S.P\\sprint 3\\srcCode\\YeetPostV1_4\\YeetPostV1_4\\YeetPostV1_4.csproj": {}
+    "R:\\GitHubYeetPost\\YeetPostV1_4\\YeetPostV1_4\\YeetPostV1_4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rjvar\\Desktop\\w2020\\S.P\\sprint 3\\srcCode\\YeetPostV1_4\\YeetPostV1_4\\YeetPostV1_4.csproj": {
+    "R:\\GitHubYeetPost\\YeetPostV1_4\\YeetPostV1_4\\YeetPostV1_4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rjvar\\Desktop\\w2020\\S.P\\sprint 3\\srcCode\\YeetPostV1_4\\YeetPostV1_4\\YeetPostV1_4.csproj",
+        "projectUniqueName": "R:\\GitHubYeetPost\\YeetPostV1_4\\YeetPostV1_4\\YeetPostV1_4.csproj",
         "projectName": "YeetPostV1_4",
-        "projectPath": "C:\\Users\\rjvar\\Desktop\\w2020\\S.P\\sprint 3\\srcCode\\YeetPostV1_4\\YeetPostV1_4\\YeetPostV1_4.csproj",
+        "projectPath": "R:\\GitHubYeetPost\\YeetPostV1_4\\YeetPostV1_4\\YeetPostV1_4.csproj",
         "packagesPath": "C:\\Users\\rjvar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rjvar\\Desktop\\w2020\\S.P\\sprint 3\\srcCode\\YeetPostV1_4\\YeetPostV1_4\\obj\\",
+        "outputPath": "R:\\GitHubYeetPost\\YeetPostV1_4\\YeetPostV1_4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
