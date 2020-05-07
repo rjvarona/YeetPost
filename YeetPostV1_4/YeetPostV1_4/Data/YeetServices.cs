@@ -158,7 +158,7 @@ namespace YeetPostV1_4.Data
                 });
 
             }
-            return yeets;
+            return yeets.OrderByDescending(yeet => yeet.whoLikes.Count()).ToList();
         }
 
 

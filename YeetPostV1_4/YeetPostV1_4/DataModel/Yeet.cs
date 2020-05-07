@@ -8,6 +8,17 @@ namespace YeetPostV1_4.DataModel
 {
     public class Yeet
     {
+
+        public Yeet()
+        {
+            header = "bruh";
+            yeet = "Welcome to YeetPost";
+            totalLikes = "42";
+            username = "TheYeeter";
+            date = "10:42pm";
+            disable = true;   
+        }
+
         public string date;
 
         public string Guid; //user
@@ -37,5 +48,7 @@ namespace YeetPostV1_4.DataModel
         public bool? modal;
         //modal for deletion
         public bool? deleteModal;
+
+        public bool? disable;
     }
 }

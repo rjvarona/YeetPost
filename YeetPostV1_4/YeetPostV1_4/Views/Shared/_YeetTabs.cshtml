@@ -10,11 +10,11 @@
             <v-icon left>mdi-fire</v-icon>
             Trending
         </v-tab>
-        <v-combobox v-model="select"
+        <v-select   v-model="select"
                     :items="location"
                     v-on:change="filterBy('trending', select, true)"
                     label="Select a City"
-                    ></v-combobox>
+                    ></v-select>
       
 
 

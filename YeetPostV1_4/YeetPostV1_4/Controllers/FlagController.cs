@@ -16,7 +16,7 @@ namespace YeetPostV1_4.Controllers
         private readonly FlagServices _flagServices = new FlagServices();
         private readonly YeetServices _yeetServices = new YeetServices();
 
-        public string FlagPost(string yeetID, List<string> whoFlags, bool remove, string reason, string location)
+        public string FlagPost(string yeetID, List<string> whoFlags, bool remove, string reason, string location, string status)
         {
             var claimsIdentity = (ClaimsIdentity)this.User.Identity;
             var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
@@ -28,7 +28,11 @@ namespace YeetPostV1_4.Controllers
             _flagServices.flagPost(yeetID, userId, whoFlags, remove, reason);
 
             var model = new YeetViewModel();
-            model.yeets = _yeetServices.GetYeetsByTrend(location, userId);
+
+            //filter by new 
+            model.yeets = (status == "new") ? _yeetServices.GetYeetsByNew(location, userId) : _yeetServices.GetYeetsByTrend(location, userId);
+
+            model.status = status;
             model.location = location;
 
             return new JavaScriptSerializer().Serialize(model);

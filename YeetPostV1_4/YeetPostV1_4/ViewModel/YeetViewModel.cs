@@ -14,6 +14,9 @@ namespace YeetPostV1_4.ViewModel
 
         public string location { get; set; }
 
+        //trending new, .... whatever
+        public string status { get; set; }
+
         public string yeetModel { get; set; }
 
      }

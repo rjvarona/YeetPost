@@ -14,6 +14,7 @@ using Newtonsoft.Json;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using Nancy.Json;
+using YeetPostV1_4.DataModel;
 //master
 
 
@@ -38,7 +39,7 @@ namespace YeetPostV1_4.Controllers
         public IActionResult Index()
         {
             bool isAuthenticated = User.Identity.IsAuthenticated;
-
+            var x = 2;
 
             if (!isAuthenticated)
             {
@@ -55,8 +56,11 @@ namespace YeetPostV1_4.Controllers
 
             var model = new YeetViewModel();
             location = _accountServices.getLocation(userId);
+            
             model.yeets = _yeetServices.GetYeetsByNew(location, userId);
-             
+            model.status = "new";
+            
+
             model.location = location;
 
             //return RedirectToAction("ViewComments", "Comment", new { yeetID = "ZFfMisCGPO0I7sK1HaDE" });
@@ -115,13 +119,23 @@ namespace YeetPostV1_4.Controllers
             if (byWhat == "new")
             { 
                 model.yeets = _yeetServices.GetYeetsByNew(location, userId);
+                model.status = "new";
             }
             else if(byWhat == "trending")
             {
                 model.yeets = _yeetServices.GetYeetsByTrend(location, userId);
-                model.yeets = model.yeets.OrderByDescending(yeet => yeet.whoLikes.Count()).ToList();
+                model.status = "trending";
 
             }
+            //set it to 0
+            //if(model.yeets.Count() == 0)
+            //{
+            //    model.yeets = new List<Yeet>();
+            //    model.yeets.Add(new Yeet(
+                    
+            //        ));
+            //}
+
             model.location = location;
 
             
@@ -143,12 +157,13 @@ namespace YeetPostV1_4.Controllers
 
             var model = new YeetViewModel();
             model.yeets = _yeetServices.GetYeetsByNew(location, userId);
+            model.status = "new";
 
             return new JavaScriptSerializer().Serialize(model);
         }
 
 
-        public string deleteYeet(string yeetId, string location)
+        public string deleteYeet(string yeetId, string location, string status)
         {
             var claimsIdentity = (ClaimsIdentity)this.User.Identity;
             var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
@@ -161,15 +176,11 @@ namespace YeetPostV1_4.Controllers
 
 
             var model = new YeetViewModel();
-            model.yeets = _yeetServices.GetYeetsByNew(location, userId);
-
+            
+            model.yeets = (status == "new") ? _yeetServices.GetYeetsByNew(location, userId) : _yeetServices.GetYeetsByTrend(location, userId);
+            model.status = status;
             return new JavaScriptSerializer().Serialize(model);
         }
-
-
-
-
-
 
 
 

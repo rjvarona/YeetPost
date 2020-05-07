@@ -81,11 +81,11 @@ namespace YeetPostV1_4.Data
 
             QuerySnapshot querySnapshot = query.GetSnapshotAsync().GetAwaiter().GetResult();
 
-            List<AspNetUsers> userProfile = new List<AspNetUsers>();
+            List<YeetUsers> userProfile = new List<YeetUsers>();
 
             foreach (DocumentSnapshot queryResult in querySnapshot)
             {
-                userProfile.Add(new AspNetUsers
+                userProfile.Add(new YeetUsers
                 {
                     location = queryResult.GetValue<string>("location"),
 
@@ -105,11 +105,11 @@ namespace YeetPostV1_4.Data
 
             QuerySnapshot querySnapshot = query.GetSnapshotAsync().GetAwaiter().GetResult();
 
-            List<AspNetUsers> userProfile = new List<AspNetUsers>();
+            List<YeetUsers> userProfile = new List<YeetUsers>();
 
             foreach (DocumentSnapshot queryResult in querySnapshot)
             {
-                userProfile.Add(new AspNetUsers
+                userProfile.Add(new YeetUsers
                 {
                     status = queryResult.GetValue<string>("status"),
 

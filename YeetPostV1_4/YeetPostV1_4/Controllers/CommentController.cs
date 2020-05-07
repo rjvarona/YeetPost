@@ -17,9 +17,17 @@ namespace YeetPostV1_4.Controllers
         //this is the first yeet ever
         public IActionResult ViewComments(string yeetID)
         {
-            var model = _commentServices.getComment(yeetID);
 
-            
+            var claimsIdentity = (ClaimsIdentity)this.User.Identity;
+            var claim = claimsIdentity.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier);
+
+            string name = User.Identity.Name;
+
+            //put into a class later and pass it through much cleaner
+            var userId = claim.Value;
+
+
+            var model = _commentServices.getComment(yeetID,  userId);
             return View(model);
         }
 
@@ -37,11 +45,10 @@ namespace YeetPostV1_4.Controllers
 
             _commentServices.newComment(name, comment, userId, yeetID);
 
-            var model = _commentServices.getComment(yeetID);
+            var model = _commentServices.getComment(yeetID, userId);
       
 
             var x = Newtonsoft.Json.JsonConvert.SerializeObject(model);
-
             return x;
         }
 

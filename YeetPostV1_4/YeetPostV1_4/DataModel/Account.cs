@@ -31,9 +31,20 @@ namespace YeetPostV1_4.DataModels
         public string Email { get; set; }
         public string PasswordHash { get; set; }
 
+        //public string status { get; set; }
+    }
+
+    public class YeetUsers 
+    {
+        public string Id { get; set; }
+        public string UserName { get; set; }
+        public string Email { get; set; }
+        public string PasswordHash { get; set; }
         public string location { get; set; }
         public string status { get; set; }
+
     }
+
 
 
 }

@@ -18,8 +18,12 @@
             locationChosen: '',
             yeet: '',
             location: [
+                { text: 'chattanooga' },
+                { text: 'charlotte' },
+                { text: 'cleveland' },
                 { text: 'chicago' },
-                { text: 'chattanooga' }
+                { text: 'cincinnati' },
+                { text: 'corona' }
             ],
             form: Object.assign({}, defaultForm),
             rules: {
@@ -48,13 +52,14 @@
 
     methods: {
         resetForm() {
-            this.form = Object.assign({}, this.defaultForm)
-            this.$refs.form.reset()
+            this.form = Object.assign({}, this.defaultForm);
+            this.$refs.form.reset();
         },
         submit() {
             
-            this.resetForm()
-            var x = $("#header").val()
+            this.resetForm();
+            var x = $("#header").val();
+            x = $('#yeet').val();
 
             if ($("#header").val() === "" || $("#yeet").val() === "") {
                 return;
@@ -85,7 +90,7 @@
 
             //this.isFiltered = true;
             if (byLocation) {
-                this.model.location = location.text
+                this.model.location = location
             }
             else {
                 this.model.location = location
@@ -94,7 +99,7 @@
             var e = this
             this.resetForm()
             var x = $("#header").val()
-
+            
             if (recency === null) {
                 return;
             }
@@ -125,7 +130,17 @@
 
         likeYeet: function (yeetID, whoLikes, location, remove)
         {
-            
+            var status = this.model.status;
+            index = this.model.yeets.findIndex(x => x.yeetID === yeetID);
+
+            if (remove) {
+                this.model.yeets[index].iLiked = false;
+                this.model.yeets[index].totalLikes = parseInt(this.model.yeets[index].totalLikes) - 1;
+            }
+            else {
+                this.model.yeets[index].iLiked = true;
+                this.model.yeets[index].totalLikes = parseInt(this.model.yeets[index].totalLikes) + 1;
+            }
             $.ajax({
                 type: 'GET',
                 url: '/Like/LikePost',
@@ -134,6 +149,7 @@
                     yeetID: yeetID,
                     whoLikes: whoLikes,
                     location: location,
+                    status: status,
                     remove: remove,
                 },
                 success: function (data) {
@@ -143,13 +159,18 @@
                     console.log('Error, please report to a developer')
                 }
             }).done(data => {
-                this.model = JSON.parse(data);
+
+                //this.model = JSON.parse(data);
 
             });
 
         },
 
-        flagYeet: function (yeetID, whoFlags, remove, reason ,location) {
+
+        //future put this in an object.
+        flagYeet: function (yeetID, whoFlags, remove, reason, location) {
+
+            var status = this.model.status;
 
             $.ajax({
                 type: 'GET',
@@ -161,6 +182,7 @@
                     location: location,
                     reason: reason,
                     remove: remove,
+                    status: status,
                 },
                 success: function (data) {
 
@@ -180,9 +202,8 @@
 
         deleteYeet: function (yeetID, location) {
 
-
-            var x = 2;
-
+           
+            var status = model.status;
 
             $.ajax({
                 type: 'GET',
@@ -191,6 +212,7 @@
                 data: {
                     yeetID: yeetID,
                     location: location,
+                    status: status,
                    
                 },
                 success: function (data) {
