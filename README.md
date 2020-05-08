@@ -14,6 +14,8 @@ YeetPost is a location based forum web application like Yik Yak.
 <h2>Technologies</h2>
 <p>.NET Core,C# , Vue.js, MVC, Google Firebase SDKs.</p>
 
+<h2>Deployment</h2>
+<p>dotnet run</p>
 
 <h2>Screenshots</h2>
 
@@ -28,3 +30,4 @@ YeetPost is a location based forum web application like Yik Yak.
 
 <h2>Demo</h2>
   <img src="screenshots/test.gif" width="1000" height="400" />
+  
