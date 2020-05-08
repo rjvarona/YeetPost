@@ -20,4 +20,5 @@ YeetPost is a location based forum web application like Yik Yak.
 <p float="left">
   <img src="screenshots/Yeets.png" width="215" />
   <img src="screenshots/thread.png" width="215" />
+  <img src="screenshots/test.gif" width="400" />
 </p>
