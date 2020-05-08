@@ -62,14 +62,6 @@
         likeYeet: function (yeetID, whoLikes, location, remove) {
        
             
-            if (remove) {
-                this.model.yeet.iLiked = false;
-                this.model.yeet.totalLikes = parseInt(this.model.yeet.totalLikes) - 1;
-            }
-            else {
-                this.model.yeet.iLiked = true;
-                this.model.yeet.totalLikes = parseInt(this.model.yeet.totalLikes) + 1;
-            }
             $.ajax({
                 type: 'GET',
                 url: '/Like/LikePost',
@@ -89,7 +81,11 @@
                 }
             }).done(data => {
 
-                //this.model = JSON.parse(data);
+
+                var x = JSON.parse(data);
+                this.model.yeet.iLiked = x.iLiked;
+                this.model.yeet.totalLikes = x.totalLikes;
+                this.model.yeet.whoLikes = x.whoLikes;
 
             });
 
