@@ -7,8 +7,8 @@ YeetPost is a location based forum web application like Yik Yak.
     <li>Add Yeets in specific loations.</li>
     <li>Add users</li>
     <li>Like Yeets, Filter Yeets, Create Yeets, Comment on Yeets, Delete Yeets</li>
-    <li>Working on* custom profile page</li>
-    <li>Banned Users</li>
+    <li>Working on* updating locations.</li>
+    <li>Support for Banned Users</li>
 </ul>
 
 <h2>Technologies</h2>
