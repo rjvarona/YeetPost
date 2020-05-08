@@ -1,0 +1,12 @@
+﻿.penguin { 
+  background: url(https://media.tenor.com/images/13c4532503b1a8099cc8f41e2475097c/tenor.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+p{
+    font-size: 40px;
+}

@@ -1,0 +1,219 @@
+﻿
+@using Newtonsoft.Json;
+@model YeetPostV1_4.ViewModel.CommentViewModel;
+
+<script>
+    var model = @Html.Raw(JsonConvert.SerializeObject(Model));
+
+</script>
+
+
+
+<div id="app">
+    <v-app id="inspire">
+
+        <v-card class="mx-auto"
+                color="#26c6da"
+                dark
+                max-width="600">
+
+            <v-card-title>
+
+
+                <v-list-item-content>
+                    <v-list-item-title> &nbsp; {{model.yeet.username}}</v-list-item-title>
+                </v-list-item-content>
+
+                <v-list-item-content>
+                    <v-list-item-title> &nbsp; <strong> <b>{{model.yeet.header}}</b> </strong></v-list-item-title>
+                </v-list-item-content>
+                <v-list-item-content>
+                    <v-list-item-title> &nbsp; {{model.yeet.date}}</v-list-item-title>
+                </v-list-item-content>
+
+                <v-list-item-content>
+                    <v-list-item-title> &nbsp; {{model.yeet.location}}</v-list-item-title>
+                </v-list-item-content>
+
+                <v-dialog v-if="model.yeet.isMine == true" v-model="model.yeet.deleteModal" persistent max-width="290">
+                    <template v-slot:activator="{ on }">
+                        <v-list-item-content>
+                            <v-icon class="mr-1" color="red" v-on="on">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mdi-delete</v-icon>
+                        </v-list-item-content>
+                    </template>
+                    <v-card>
+                        <div>
+                            <v-card-title class="headline" style="text-align: center;">Are you sure you want to deYeet this Yeet?</v-card-title>
+                            <v-card-actions>
+                                <v-spacer></v-spacer>
+                                <v-btn color="green darken-1" text v-on:click="model.yeet.deleteModal = false">Close</v-btn>
+                                <v-btn color="green darken-1" text
+                                       v-on:click="deleteYeet(model.yeet.yeetID, model.yeet.location)">Yes</v-btn>
+                            </v-card-actions>
+                        </div>
+                        <div>
+
+                        </div>
+                    </v-card>
+                </v-dialog>
+
+
+
+
+                <v-dialog v-if="model.yeet.iFlagged == true && model.yeet.isMine == false" v-model="model.yeet.modal" persistent max-width="290">
+                    <template v-slot:activator="{ on }">
+                        <v-list-item-content>
+                            <v-icon class="mr-1" color="red" v-on="on">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mdi-flag</v-icon>
+
+                        </v-list-item-content>
+                    </template>
+                    <v-card>
+                        <div>
+                            <v-card-title class="headline" style="text-align: center;">Unflag Yeet? {{model.yeet.yeetID}}</v-card-title>
+
+                            <v-card-actions>
+                                <v-spacer></v-spacer>
+                                <v-btn color="green darken-1" text v-on:click="model.yeet.modal = false">Close</v-btn>
+                                <v-btn color="green darken-1" text
+                                       v-on:click="flagYeet(model.yeet.yeetID, model.yeet.whoFlags,true, yeet, model.yeet.location )">Yes</v-btn>
+                            </v-card-actions>
+                        </div>
+                        <div>
+
+                        </div>
+                    </v-card>
+                </v-dialog>
+
+                <v-dialog v-model="model.yeet.modal" persistent max-width="290" v-if="model.yeet.iFlagged == false && model.yeet.isMine == false">
+                    <template v-slot:activator="{ on }">
+                        <v-list-item-content>
+
+                            <v-icon class="mr-1" color="white" v-on="on">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mdi-flag</v-icon>
+                        </v-list-item-content>
+                    </template>
+                    <v-card>
+                        <v-card-title class="headline" style="text-align: center;">Flag for What?</v-card-title>
+
+                        <v-row>
+                            <v-col cols="12">
+                                <v-divider></v-divider>
+                                <v-card-text style="font-size: 32px; text-align: center;"
+                                             v-on:click="flagYeet(model.yeet.yeetID, model.yeet.whoFlags,false, inappropriate ,model.yeet.location )">Innapropriate Context</v-card-text>
+                                <v-divider></v-divider>
+                            </v-col>
+                            <v-col cols="12">
+                                <v-card-text style="font-size: 32px;text-align: center;"
+                                             v-on:click="flagYeet(model.yeet.yeetID, model.yeet.whoFlags,false, abusive ,model.yeet.location )">Abusive</v-card-text>
+                                <v-divider></v-divider>
+                            </v-col>
+
+                        </v-row>
+                        <v-card-actions>
+                            <v-spacer></v-spacer>
+                            <v-btn color="green darken-1" text v-on:click="yeet.modal = false">Close</v-btn>
+                        </v-card-actions>
+                    </v-card>
+                </v-dialog>
+
+
+
+            </v-card-title>
+
+            <v-card-text class="headline font-weight-bold">
+                "   {{model.yeet.yeet}} "
+            </v-card-text>
+
+            <v-card-actions>
+                <v-list-item class="grow">
+
+                    <v-row align="center"
+                           justify="end">
+                        <v-icon class="mr-1" color="red" v-if="model.yeet.iLiked == true" v-on:click="likeYeet(model.yeet.yeetID, model.yeet.whoLikes, model.yeet.location, true)">mdi-heart</v-icon>
+
+                        <v-icon class="mr-1" v-if="model.yeet.iLiked == false && model.showComments == true" v-on:click="likeYeet(model.yeet.yeetID, model.yeet.whoLikes, model.location, false)">mdi-heart</v-icon>
+
+
+                        <span class="subheading mr-2">{{model.yeet.totalLikes}}</span>
+
+                    </v-row>
+                </v-list-item>
+            </v-card-actions>
+
+        </v-card>
+        <br />
+    </v-app>
+
+
+
+
+
+    @* adding yeet comments------------------------------------------ *@
+    <v-app id="inspire">
+        <v-card max-width="500"
+                class="mx-auto" v-if="model.showComments == true">
+            <v-form ref="form" v-on:submit.prevent="submit">
+                <v-card color="white">
+
+                    <v-container fluid>
+                        <v-row>
+
+
+                            <v-col cols="12">
+                                <v-textarea v-model="addComment"
+                                            label="comment "
+                                            id="comment"
+                                            color="black"
+                                            rows="3">
+                                    <template v-slot:label>
+                                        <div>
+                                            Comment <small>(say something dumb)</small>
+                                        </div>
+                                    </template>
+                                </v-textarea>
+
+                            </v-col>
+
+                            <v-col cols="9">
+                            </v-col>
+                            <v-col cols="3">
+                                <v-btn color="rgb(147, 230, 234)" v-on:click="submit">
+                                    comment
+                                </v-btn>
+                            </v-col>
+                        </v-row>
+                    </v-container>
+
+                </v-card>
+            </v-form>
+
+            <v-list two-line>
+                <v-list-item-group>
+                    <template v-for="(item, index) in model.comments">
+                        <v-list-item :key="item.title">
+                            <template v-slot:default="{active, toggle }">
+
+                                <v-list-item-content>
+
+                                    <v-list-item-title style="color:black; font-weight: bold; ">
+                                        &nbsp; {{item.username}}
+                                    </v-list-item-title>
+                                    <v-list-item-subtitle style="color:black; font-size: 15px; ">
+                                        &nbsp; " {{item.comment}} "
+                                    </v-list-item-subtitle>
+                                </v-list-item-content>
+
+
+                            </template>
+                        </v-list-item>
+
+                        <v-divider v-if="index + 1 < model.comments.length"
+                                   :key="index"></v-divider>
+                    </template>
+                </v-list-item-group>
+            </v-list>
+        </v-card>
+    </v-app>
+
+</div>
+
+<script src="~/js/CommentPage.js"></script>
