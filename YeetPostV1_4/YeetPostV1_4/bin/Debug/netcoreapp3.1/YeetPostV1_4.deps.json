@@ -24,6 +24,8 @@
     ".NETCoreApp,Version=v3.1": {
       "YeetPostV1_4/1.0.0": {
         "dependencies": {
+          "FirebaseAuthentication.net": "3.4.0",
+          "FirebaseStorage.net": "1.0.3",
           "Google.Cloud.Firestore": "1.1.0",
           "Google.Cloud.Firestore.V1": "1.1.0",
           "MailKit": "2.6.0",
@@ -314,6 +316,36 @@
         },
         "compile": {
           "YeetPostV1_4.dll": {}
+        }
+      },
+      "FirebaseAuthentication.net/3.4.0": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        }
+      },
+      "FirebaseStorage.net/1.0.3": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
         }
       },
       "Google.Api.CommonProtos/1.7.0": {
@@ -4646,6 +4678,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "FirebaseAuthentication.net/3.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KLoD8nqKe2OwZ9SqyblEle0LM7QtDMEf7eqwzUQxAkMiViKvbSb8Rp9UGTuSkMtsekdYDtreI2H7/5Fq+hnbwg==",
+      "path": "firebaseauthentication.net/3.4.0",
+      "hashPath": "firebaseauthentication.net.3.4.0.nupkg.sha512"
+    },
+    "FirebaseStorage.net/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SupDHNUwNqcVwEo/HdFEWAXveQe3fU16q4wrrCxUVwP0a77zaddKp7vo2sHIW56DAsJn/gUfjDK3w0MuBhvzjQ==",
+      "path": "firebasestorage.net/1.0.3",
+      "hashPath": "firebasestorage.net.1.0.3.nupkg.sha512"
     },
     "Google.Api.CommonProtos/1.7.0": {
       "type": "package",

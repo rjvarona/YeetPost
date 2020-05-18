@@ -15,7 +15,7 @@
         <v-card class="mx-auto"
                 color="#26c6da"
                 dark
-                max-width="600">
+                width="600">
 
             <v-card-title>
 
@@ -141,15 +141,9 @@
 
         </v-card>
         <br />
-    </v-app>
 
 
-
-
-
-    @* adding yeet comments------------------------------------------ *@
-    <v-app id="inspire">
-        <v-card max-width="500"
+        <v-card width="600"
                 class="mx-auto" v-if="model.showComments == true">
             <v-form ref="form" v-on:submit.prevent="submit">
                 <v-card color="white">
@@ -212,6 +206,15 @@
                 </v-list-item-group>
             </v-list>
         </v-card>
+    </v-app>
+
+
+
+
+
+    @* adding yeet comments------------------------------------------ *@
+    <v-app id="inspire">
+        
     </v-app>
 
 </div>

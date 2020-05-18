@@ -2,6 +2,32 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "FirebaseAuthentication.net/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        }
+      },
+      "FirebaseStorage.net/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        }
+      },
       "Google.Api.CommonProtos/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -3574,6 +3600,30 @@
     }
   },
   "libraries": {
+    "FirebaseAuthentication.net/3.4.0": {
+      "sha512": "KLoD8nqKe2OwZ9SqyblEle0LM7QtDMEf7eqwzUQxAkMiViKvbSb8Rp9UGTuSkMtsekdYDtreI2H7/5Fq+hnbwg==",
+      "type": "package",
+      "path": "firebaseauthentication.net/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "firebaseauthentication.net.3.4.0.nupkg.sha512",
+        "firebaseauthentication.net.nuspec",
+        "lib/netstandard1.1/Firebase.Auth.dll"
+      ]
+    },
+    "FirebaseStorage.net/1.0.3": {
+      "sha512": "SupDHNUwNqcVwEo/HdFEWAXveQe3fU16q4wrrCxUVwP0a77zaddKp7vo2sHIW56DAsJn/gUfjDK3w0MuBhvzjQ==",
+      "type": "package",
+      "path": "firebasestorage.net/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "firebasestorage.net.1.0.3.nupkg.sha512",
+        "firebasestorage.net.nuspec",
+        "lib/netstandard1.1/Firebase.Storage.dll"
+      ]
+    },
     "Google.Api.CommonProtos/1.7.0": {
       "sha512": "RQG8nYUb+B1CKxXqtXBy7Kfj4r0c3mE4itQaFHuLzf7BXPeAOHPRKgU02kemBmuNMeJ+GSK+6D/RrFkjSFxvOA==",
       "type": "package",
@@ -10678,6 +10728,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "FirebaseAuthentication.net >= 3.4.0",
+      "FirebaseStorage.net >= 1.0.3",
       "Google.Cloud.Firestore >= 1.1.0",
       "Google.Cloud.Firestore.V1 >= 1.1.0",
       "MailKit >= 2.6.0",
@@ -10740,6 +10792,14 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "FirebaseAuthentication.net": {
+            "target": "Package",
+            "version": "[3.4.0, )"
+          },
+          "FirebaseStorage.net": {
+            "target": "Package",
+            "version": "[1.0.3, )"
+          },
           "Google.Cloud.Firestore": {
             "target": "Package",
             "version": "[1.1.0, )"

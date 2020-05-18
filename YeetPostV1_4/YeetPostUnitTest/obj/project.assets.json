@@ -29,6 +29,32 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "FirebaseAuthentication.net/3.4.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Auth.dll": {}
+        }
+      },
+      "FirebaseStorage.net/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/Firebase.Storage.dll": {}
+        }
+      },
       "FluentAssertions/5.10.2": {
         "type": "package",
         "dependencies": {
@@ -4174,6 +4200,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "FirebaseAuthentication.net": "3.4.0",
+          "FirebaseStorage.net": "1.0.3",
           "Google.Cloud.Firestore": "1.1.0",
           "Google.Cloud.Firestore.V1": "1.1.0",
           "MailKit": "2.6.0",
@@ -4257,6 +4285,30 @@
         "build/netstandard1.0/coverlet.core.pdb",
         "coverlet.collector.1.0.1.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "FirebaseAuthentication.net/3.4.0": {
+      "sha512": "KLoD8nqKe2OwZ9SqyblEle0LM7QtDMEf7eqwzUQxAkMiViKvbSb8Rp9UGTuSkMtsekdYDtreI2H7/5Fq+hnbwg==",
+      "type": "package",
+      "path": "firebaseauthentication.net/3.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "firebaseauthentication.net.3.4.0.nupkg.sha512",
+        "firebaseauthentication.net.nuspec",
+        "lib/netstandard1.1/Firebase.Auth.dll"
+      ]
+    },
+    "FirebaseStorage.net/1.0.3": {
+      "sha512": "SupDHNUwNqcVwEo/HdFEWAXveQe3fU16q4wrrCxUVwP0a77zaddKp7vo2sHIW56DAsJn/gUfjDK3w0MuBhvzjQ==",
+      "type": "package",
+      "path": "firebasestorage.net/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "firebasestorage.net.1.0.3.nupkg.sha512",
+        "firebasestorage.net.nuspec",
+        "lib/netstandard1.1/Firebase.Storage.dll"
       ]
     },
     "FluentAssertions/5.10.2": {

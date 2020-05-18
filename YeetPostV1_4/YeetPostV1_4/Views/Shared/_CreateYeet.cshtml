@@ -32,6 +32,13 @@
                             </template>
                         </v-textarea>
                     </v-col>
+                    <v-col cols="12">
+                        <v-file-input  show-size label="File input"
+                                     id="file"
+                                      v-model="file"
+                                      v-on:change="onchange()" 
+                                      ></v-file-input>
+                    </v-col>
                     <v-col cols="8">
 
                     </v-col>

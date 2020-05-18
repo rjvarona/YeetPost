@@ -16,6 +16,7 @@
             inappropriate: 'innapropriate content',
             abusive: 'abusive',
             locationChosen: '',
+            file:null,
             yeet: '',
             location: [
                 { text: 'chattanooga' },
@@ -64,7 +65,9 @@
             if ($("#header").val() === "" || $("#yeet").val() === "") {
                 return;
             }
-            var e = this
+            var y = this.file;
+
+            var e = this;
             $.ajax({
                 type: 'POST',
                 url: '/Yeet/pushNewYeet',
@@ -86,6 +89,16 @@
             
             //location.reload(true);
         },
+        //onchanging
+        onchange(e) {
+
+            var files = e.target.files || e.dataTransfer.files;
+            if (!files.length)
+                return;
+            this.createImage(files[0]);
+        },
+
+
         filterBy: function (recency, location, byLocation) {
 
             //this.isFiltered = true;
