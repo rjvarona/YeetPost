@@ -12310,21 +12310,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rjvar\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\rjvar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "R:\\gith2\\YeetPostV1_4\\YeetPostUnitTest\\YeetPostUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\rjvar\\Documents\\dot_net\\YeetPost\\YeetPostV1_4\\YeetPostUnitTest\\YeetPostUnitTest.csproj",
       "projectName": "YeetPostUnitTest",
-      "projectPath": "R:\\gith2\\YeetPostV1_4\\YeetPostUnitTest\\YeetPostUnitTest.csproj",
+      "projectPath": "C:\\Users\\rjvar\\Documents\\dot_net\\YeetPost\\YeetPostV1_4\\YeetPostUnitTest\\YeetPostUnitTest.csproj",
       "packagesPath": "C:\\Users\\rjvar\\.nuget\\packages\\",
-      "outputPath": "R:\\gith2\\YeetPostV1_4\\YeetPostUnitTest\\obj\\",
+      "outputPath": "C:\\Users\\rjvar\\Documents\\dot_net\\YeetPost\\YeetPostV1_4\\YeetPostUnitTest\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\rjvar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -12338,9 +12334,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "R:\\gith2\\YeetPostV1_4\\YeetPostV1_4\\YeetPostV1_4.csproj": {
-              "projectPath": "R:\\gith2\\YeetPostV1_4\\YeetPostV1_4\\YeetPostV1_4.csproj"
+            "C:\\Users\\rjvar\\Documents\\dot_net\\YeetPost\\YeetPostV1_4\\YeetPostV1_4\\YeetPostV1_4.csproj": {
+              "projectPath": "C:\\Users\\rjvar\\Documents\\dot_net\\YeetPost\\YeetPostV1_4\\YeetPostV1_4\\YeetPostV1_4.csproj"
             }
           }
         }
@@ -12353,6 +12350,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "FluentAssertions": {
             "target": "Package",
@@ -12401,7 +12399,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

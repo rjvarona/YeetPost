@@ -26,10 +26,7 @@ namespace YeetPostV1_4.Data
             return model;
         }
 
-        /// <summary>
-        /// supposed to get User Id currently Not working
-        /// </summary>
-        /// <returns></returns>
+ 
         public string getUserId()
         {
             var claimsIdentity = (ClaimsIdentity)this.User.Identity;

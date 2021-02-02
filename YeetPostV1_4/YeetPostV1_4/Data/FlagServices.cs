@@ -87,11 +87,6 @@ namespace YeetPostV1_4.Data
 
             updateFlagYeet(whoFlags, yeetID);
 
-            //sending email
-            //if (whoFlags.Count >= 5)
-            //{
-            //    sendEmail(yeetID);
-            //}
         }
 
 
